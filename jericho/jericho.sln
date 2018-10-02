@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jericho", "Jericho\Jericho.csproj", "{6983C169-1B75-4C4C-BE21-3ECE1684342D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jericho.Controller", "Jericho.Controller\Jericho.Controller.csproj", "{9AECCC47-BAEC-47E8-BAFF-584249CB1B29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jericho.Model", "Jericho.Model\Jericho.Model.csproj", "{F627EE7F-9E05-4F01-9E7F-D02BE3C73FD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6983C169-1B75-4C4C-BE21-3ECE1684342D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6983C169-1B75-4C4C-BE21-3ECE1684342D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6983C169-1B75-4C4C-BE21-3ECE1684342D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6983C169-1B75-4C4C-BE21-3ECE1684342D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AECCC47-BAEC-47E8-BAFF-584249CB1B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AECCC47-BAEC-47E8-BAFF-584249CB1B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AECCC47-BAEC-47E8-BAFF-584249CB1B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AECCC47-BAEC-47E8-BAFF-584249CB1B29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F627EE7F-9E05-4F01-9E7F-D02BE3C73FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F627EE7F-9E05-4F01-9E7F-D02BE3C73FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F627EE7F-9E05-4F01-9E7F-D02BE3C73FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F627EE7F-9E05-4F01-9E7F-D02BE3C73FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
