@@ -16,19 +16,19 @@ namespace Jericho.Model
         public SQLiteConnection conn { get; set; }
         public string stringConnection { get; set; }
         private List<SQLiteParameter> listaParameter = new List<SQLiteParameter>();
-        string pathBanco = @"C:\Users\17000001504\Desktop\Teste.db";
+        string pathBanco = @"C:\Users\17000001504\Desktop\Teste.db"; //Aqui é definido o caminho do banco
         public DataBase()
         {
             try
             {
-                if (File.Exists(pathBanco))
+                if (File.Exists(pathBanco)) //Verifica se o banco existe
                 {
-                    this.stringConnection = "Data Source=" + pathBanco + ";Version=3";
+                    this.stringConnection = "Data Source=" + pathBanco + ";Version=3"; // atribui string de conexão
                     conn = new SQLiteConnection(stringConnection);
                 }
                 else
                 {
-                    throw new Exception("Banco de Dados não encontrado. Reinstá-le a aplicação!");
+                    throw new Exception("Banco de Dados não encontrado. Reinstá-le a aplicação!"); //caso o banco não exista retornara esta mensagem
                 }
             }
             catch (Exception ex)
@@ -50,21 +50,29 @@ namespace Jericho.Model
             parametro.DbType = tipo;
             listaParameter.Add(parametro);
         }
-
-        public void OpenConnection()
+        /// <summary>
+        ///  Verifica se a conexão esta fechada caso esteja abra conexão
+        /// </summary>
+        public void OpenConnection() //Verifica conexão
         {
             if (this.conn.State == ConnectionState.Closed)
             {
                 this.conn.Open();
             }
         }
-
+       /// <summary>
+       /// Responsavel por fechar conexão
+       /// </summary>
         public void CloseConection()
         {
             this.conn.Close();
         }
 
-        //select selet all
+        /// <summary>
+        /// Retorna um SQLiteDataReader com um objeto (É usado no select e no select all)
+        /// </summary>
+        /// <param name="_sql"></param>
+        /// <returns></returns>
         public SQLiteDataReader ExecuteReader(string _sql)
         {
              SQLiteCommand cmd = new SQLiteCommand();
@@ -83,7 +91,11 @@ namespace Jericho.Model
             return dr;
         }
 
-        //delete, insert , cont
+        /// <summary>
+        /// Retorna uma int que contem as linhas afetadas (usado no insert, update, delete)
+        /// </summary>
+        /// <param name="_sql"></param>
+        /// <returns></returns>
         public int ExecuteNoQuery(string _sql)
         {
                 SQLiteCommand cmd = new SQLiteCommand();
