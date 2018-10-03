@@ -1,4 +1,5 @@
 C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.exe.config
+<<<<<<< HEAD
 C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.exe.config
 C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.exe
 C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.pdb
@@ -11,3 +12,6 @@ C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.
 C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.csproj.GenerateResource.Cache
 C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.exe
 C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.pdb
+=======
+C:\Users\17000006214\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.exe.config
+>>>>>>> f91d0d15bd2c02b9d97b9017a7471a3a02b71fb3
