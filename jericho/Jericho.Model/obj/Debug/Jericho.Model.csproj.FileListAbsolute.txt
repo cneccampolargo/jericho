@@ -1,0 +1,4 @@
+C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\Jericho.Model.dll
+C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\Jericho.Model.pdb
+C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho.Model\obj\Debug\Jericho.Model.dll
+C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho.Model\obj\Debug\Jericho.Model.pdb
