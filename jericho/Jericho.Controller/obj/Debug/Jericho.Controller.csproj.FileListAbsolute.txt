@@ -1,7 +1,9 @@
-C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\Jericho.Controller.dll
-C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\Jericho.Controller.pdb
-C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\Jericho.Model.dll
-C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\Jericho.Model.pdb
-C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho.Controller\obj\Debug\Jericho.Controller.csprojResolveAssemblyReference.cache
-C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho.Controller\obj\Debug\Jericho.Controller.dll
-C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho.Controller\obj\Debug\Jericho.Controller.pdb
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\Jericho.Controller.dll
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\Jericho.Controller.pdb
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\Jericho.Model.dll
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\System.Data.SQLite.dll
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\Jericho.Model.pdb
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\System.Data.SQLite.xml
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Controller\obj\Debug\Jericho.Controller.csprojResolveAssemblyReference.cache
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Controller\obj\Debug\Jericho.Controller.dll
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Controller\obj\Debug\Jericho.Controller.pdb
