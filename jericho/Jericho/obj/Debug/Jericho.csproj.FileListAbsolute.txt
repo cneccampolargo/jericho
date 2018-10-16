@@ -45,3 +45,4 @@ C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\System.D
 C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.csprojResolveAssemblyReference.cache
 C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.Properties.Resources.resources
 C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.csproj.GenerateResource.Cache
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.db

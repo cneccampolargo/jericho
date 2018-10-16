@@ -14,10 +14,11 @@ namespace Jericho.Model
 {
     class EbookDao
     {
-       public Ebook GetEbook(string _id)
+        public Ebook GetEbook(string _id)
+        {
+            DataBase db = new DataBase();
+            try
             {
-                DataBase db = new DataBase();
-            try {
                 db.OpenConnection();
                 SQLiteDataReader dr;
                 db.AddParameter("@id", _id, DbType.String);
@@ -34,7 +35,7 @@ namespace Jericho.Model
                 }
                 return ebook;
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return null;
                 ex.ToString();
@@ -43,6 +44,7 @@ namespace Jericho.Model
             {
                 db.CloseConection();
             }
+        
        }
         public int InsertEbook(Ebook ebook)
         {
@@ -60,16 +62,31 @@ namespace Jericho.Model
             }
             catch(Exception ex)
             {
-
+                return 0;
+            }
+            finally
+            {
+                db.CloseConection();
             }
         }
         public int DeleteMp3(string _id)
-        {
-            
+        {            
             DataBase db = new DataBase();
-            db.AddParameter("@id", _id, DbType.String);
-            return db.ExecuteNoQuery("Delete from Ebook where Id_Ebook = @id");
-        }
+            try {
+                db.AddParameter("@id", _id, DbType.String);
+                return db.ExecuteNoQuery("Delete from Ebook where Id_Ebook = @id");
+            }
+            catch(Exception ex)
+            {
+                ex.ToString();
+                return 0;
+            }
+            finally
+            {
+                db.CloseConection();
+            }
+
+       }
         public int UpdateEbook(Ebook ebook)
         {
             DataBase db = new DataBase();
@@ -101,22 +118,33 @@ namespace Jericho.Model
         public List<Ebook> GetAll()
         {
             DataBase db = new DataBase();
-            SQLiteDataReader dr;
-           dr = db.ExecuteReader("select * from Ebook");
-            List<Ebook> ebooks = new List<Ebook>();
-            Ebook ebook = new Ebook();
-            while (dr.Read())
-            {
-                ebook.autor = Convert.ToString(dr["Autor"]);
-                ebook.CaminhoEbook = Convert.ToString(dr["CaminhoEbook"]);
-                ebook.dataAdd = Convert.ToDateTime(dr["DataAdicionado"]);
-                ebook.Editora = Convert.ToString(dr["Editora"]);
-                ebook.Sinopse = Convert.ToString(dr["sinopse"]);
-                ebook.idEbook = Convert.ToString(dr["Id_Ebook"]);
-                ebook.NomeLivro = Convert.ToString(dr["NomeLivro"]);
-                ebooks.Add(ebook);
+            try {
+                SQLiteDataReader dr;
+                dr = db.ExecuteReader("select * from Ebook");
+                List<Ebook> ebooks = new List<Ebook>();
+                Ebook ebook = new Ebook();
+                while (dr.Read())
+                {
+                    ebook.autor = Convert.ToString(dr["Autor"]);
+                    ebook.CaminhoEbook = Convert.ToString(dr["CaminhoEbook"]);
+                    ebook.dataAdd = Convert.ToDateTime(dr["DataAdicionado"]);
+                    ebook.Editora = Convert.ToString(dr["Editora"]);
+                    ebook.Sinopse = Convert.ToString(dr["sinopse"]);
+                    ebook.idEbook = Convert.ToString(dr["Id_Ebook"]);
+                    ebook.NomeLivro = Convert.ToString(dr["NomeLivro"]);
+                    ebooks.Add(ebook);
+                }
+                return ebooks;
             }
-            return ebooks;
+            catch(Exception ex)
+            {
+                return null;
+                ex.ToString();
+            }
+            finally
+            {
+                db.CloseConection();
+            }
         }
     }
 
