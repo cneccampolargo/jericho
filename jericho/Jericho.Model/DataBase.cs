@@ -13,10 +13,10 @@ namespace Jericho.Model
    public class DataBase
     {
         
-        public SQLiteConnection conn { get; set; }
-        public string stringConnection { get; set; }
+        private SQLiteConnection conn { get; set; }
+        private string stringConnection { get; set; }
         private List<SQLiteParameter> listaParameter = new List<SQLiteParameter>();
-        string pathBanco = @"C:\Users\17000001504\Desktop\Teste.db"; //Aqui é definido o caminho do banco
+        string pathBanco = "Jericho.db"; //Aqui é definido o caminho do banco
         public DataBase()
         {
             try
@@ -75,10 +75,12 @@ namespace Jericho.Model
         /// <returns></returns>
         public SQLiteDataReader ExecuteReader(string _sql)
         {
-             SQLiteCommand cmd = new SQLiteCommand();
+
+            SQLiteCommand cmd = new SQLiteCommand();
             cmd.CommandText = _sql;
             cmd.CommandType = CommandType.Text;
             cmd.Connection = conn;
+
             if (listaParameter != null)
             {
                 foreach (SQLiteParameter parameter in listaParameter)

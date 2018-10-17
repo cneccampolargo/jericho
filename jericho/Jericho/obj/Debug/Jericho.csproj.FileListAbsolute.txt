@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.exe.config
 C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.exe
 C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.pdb
@@ -21,3 +22,53 @@ C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.
 C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.csproj.GenerateResource.Cache
 C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.exe
 C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.pdb
+=======
+<<<<<<< HEAD
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.exe.config
+C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.exe.config
+C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.exe
+C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.pdb
+C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.Controller.dll
+C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.Model.dll
+C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.Controller.pdb
+C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.Model.pdb
+C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.csprojResolveAssemblyReference.cache
+C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.Properties.Resources.resources
+C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.csproj.GenerateResource.Cache
+C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.exe
+C:\Users\16000006644\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.pdb
+=======
+C:\Users\17000006214\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.exe.config
+>>>>>>> f91d0d15bd2c02b9d97b9017a7471a3a02b71fb3
+C:\Users\17000006214\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.exe
+C:\Users\17000006214\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.pdb
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.exe.config
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.exe
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.pdb
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.Controller.dll
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.Model.dll
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\System.Data.SQLite.dll
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.Controller.pdb
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.Model.pdb
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\System.Data.SQLite.xml
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.csprojResolveAssemblyReference.cache
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.Properties.Resources.resources
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.csproj.GenerateResource.Cache
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.exe
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.pdb
+>>>>>>> ec84dc369be238611e24097e314509ecb323c246
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.exe
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.pdb
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.exe
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.pdb
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.Controller.dll
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.Model.dll
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\System.Data.SQLite.dll
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.Controller.pdb
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.Model.pdb
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\System.Data.SQLite.xml
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.csprojResolveAssemblyReference.cache
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.Properties.Resources.resources
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.csproj.GenerateResource.Cache
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.db
+>>>>>>> efec40a705dcda7dfeabb9c9c818c055b95ecd46

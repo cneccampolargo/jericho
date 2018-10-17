@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\Jericho.Model.dll.config
 C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\Jericho.Model.dll
 C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\Jericho.Model.pdb
@@ -13,3 +14,34 @@ C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\Sy
 C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Model\obj\Debug\Jericho.Model.csprojResolveAssemblyReference.cache
 C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Model\obj\Debug\Jericho.Model.dll
 C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Model\obj\Debug\Jericho.Model.pdb
+=======
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\Jericho.Model.dll.config
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\Jericho.Model.dll
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\Jericho.Model.pdb
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\EntityFramework.dll
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\System.Data.SQLite.dll
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\EntityFramework.xml
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\System.Data.SQLite.xml
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Model\obj\Debug\Jericho.Model.csprojResolveAssemblyReference.cache
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Model\obj\Debug\Jericho.Model.dll
+C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Model\obj\Debug\Jericho.Model.pdb
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\Jericho.db
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\Jericho.Model.dll.config
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\Jericho.Model.dll
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\Jericho.Model.pdb
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\EntityFramework.dll
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\System.Data.SQLite.dll
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\EntityFramework.xml
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\System.Data.SQLite.xml
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Model\obj\Debug\Jericho.Model.csprojResolveAssemblyReference.cache
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Model\obj\Debug\Jericho.Model.dll
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Model\obj\Debug\Jericho.Model.pdb
+>>>>>>> efec40a705dcda7dfeabb9c9c818c055b95ecd46

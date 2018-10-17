@@ -81,6 +81,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="TelaInicial.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +90,10 @@
     </Compile>
     <EmbeddedResource Include="mp3_pagina.resx">
       <DependentUpon>mp3_pagina.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+>>>>>>> efec40a705dcda7dfeabb9c9c818c055b95ecd46
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
