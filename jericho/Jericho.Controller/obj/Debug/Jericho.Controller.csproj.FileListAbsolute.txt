@@ -1,39 +1,18 @@
-<<<<<<< HEAD
-C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\Jericho.Controller.dll.config
-C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\Jericho.Controller.dll
-C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\Jericho.Controller.pdb
-C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\EntityFramework.dll
-C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\Jericho.Model.dll
-C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\MaterialSkin.dll
-C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\System.Data.SQLite.dll
-C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\System.Data.SQLite.EF6.dll
-C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\System.Data.SQLite.Linq.dll
-C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\Jericho.Model.pdb
-C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\EntityFramework.xml
-C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\System.Data.SQLite.xml
-C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Controller\obj\Debug\Jericho.Controller.csprojResolveAssemblyReference.cache
-C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Controller\obj\Debug\Jericho.Controller.dll
-C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Controller\obj\Debug\Jericho.Controller.pdb
-=======
-C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\Jericho.Controller.dll
-C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\Jericho.Controller.pdb
-C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\Jericho.Model.dll
-C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\System.Data.SQLite.dll
-C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\Jericho.Model.pdb
-C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\System.Data.SQLite.xml
-C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Controller\obj\Debug\Jericho.Controller.csprojResolveAssemblyReference.cache
-C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Controller\obj\Debug\Jericho.Controller.dll
-C:\Users\17000001509\Documents\GitHub\jericho\jericho\Jericho.Controller\obj\Debug\Jericho.Controller.pdb
-C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\Jericho.Controller.dll
-C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\Jericho.Controller.pdb
-C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\Jericho.Model.dll
-C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\System.Data.SQLite.dll
-C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\Jericho.Model.pdb
-C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\System.Data.SQLite.xml
-C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Controller\obj\Debug\Jericho.Controller.csprojResolveAssemblyReference.cache
-C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Controller\obj\Debug\Jericho.Controller.dll
-C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Controller\obj\Debug\Jericho.Controller.pdb
-C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Controller\bin\Debug\Jericho.db
->>>>>>> efec40a705dcda7dfeabb9c9c818c055b95ecd46
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho.Controller\obj\Debug\Jericho.Controller.csprojResolveAssemblyReference.cache
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho.Controller\bin\Debug\Jericho.db
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho.Controller\bin\Debug\Jericho.Controller.dll.config
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho.Controller\bin\Debug\Jericho.Controller.dll
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho.Controller\bin\Debug\Jericho.Controller.pdb
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho.Controller\bin\Debug\EntityFramework.dll
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho.Controller\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho.Controller\bin\Debug\Jericho.Model.dll
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho.Controller\bin\Debug\MaterialSkin.dll
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho.Controller\bin\Debug\System.Data.SQLite.dll
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho.Controller\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho.Controller\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho.Controller\bin\Debug\Jericho.Model.pdb
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho.Controller\bin\Debug\EntityFramework.xml
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho.Controller\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho.Controller\bin\Debug\System.Data.SQLite.xml
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho.Controller\obj\Debug\Jericho.Controller.dll
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho.Controller\obj\Debug\Jericho.Controller.pdb
