@@ -12,7 +12,7 @@ using System.IO;
 
 namespace Jericho.Model
 {
-    class EbookDao
+   public class EbookDao
     {
         public Ebook GetEbook(string _id)
         {
@@ -50,6 +50,7 @@ namespace Jericho.Model
         {
             DataBase db = new DataBase();
             try {
+                db.OpenConnection();
                 db.AddParameter("@id", ebook.idEbook, DbType.String);
                 db.AddParameter("@Autor", ebook.autor, DbType.String);
                 db.AddParameter("@CaminhoEbook", ebook.CaminhoEbook, DbType.String);
@@ -57,6 +58,15 @@ namespace Jericho.Model
                 db.AddParameter("@sinopse", ebook.Sinopse, DbType.String);
                 db.AddParameter("@NomeLivro", ebook.NomeLivro, DbType.String);
                 db.AddParameter("@DataAdicionado", ebook.dataAdd, DbType.DateTime);
+
+                Id_Ebook,
+                      Autor,
+                      Editora,
+                      DataAdicionado,
+                      NomeLivro,
+                      CaminhoEbook,
+                      sinopse
+
 
                 return db.ExecuteNoQuery("Insert into Ebook(Id_Ebook,Autor,CaminhoEbook,Editora,sinopse,NomeLivro,DataAdicionado) Values(@id,@Autor,@CaminhoEbook,@Editora,@sinopse,@NomeLivro,@DataAdicionado)");
             }
@@ -72,7 +82,9 @@ namespace Jericho.Model
         public int DeleteMp3(string _id)
         {            
             DataBase db = new DataBase();
+
             try {
+                db.OpenConnection();
                 db.AddParameter("@id", _id, DbType.String);
                 return db.ExecuteNoQuery("Delete from Ebook where Id_Ebook = @id");
             }
@@ -119,6 +131,7 @@ namespace Jericho.Model
         {
             DataBase db = new DataBase();
             try {
+                db.OpenConnection();
                 SQLiteDataReader dr;
                 dr = db.ExecuteReader("select * from Ebook");
                 List<Ebook> ebooks = new List<Ebook>();
