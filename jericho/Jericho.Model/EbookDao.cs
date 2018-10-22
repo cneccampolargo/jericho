@@ -59,16 +59,7 @@ namespace Jericho.Model
                 db.AddParameter("@NomeLivro", ebook.NomeLivro, DbType.String);
                 db.AddParameter("@DataAdicionado", ebook.dataAdd, DbType.DateTime);
 
-                Id_Ebook,
-                      Autor,
-                      Editora,
-                      DataAdicionado,
-                      NomeLivro,
-                      CaminhoEbook,
-                      sinopse
-
-
-                return db.ExecuteNoQuery("Insert into Ebook(Id_Ebook,Autor,CaminhoEbook,Editora,sinopse,NomeLivro,DataAdicionado) Values(@id,@Autor,@CaminhoEbook,@Editora,@sinopse,@NomeLivro,@DataAdicionado)");
+               return db.ExecuteNoQuery("Insert into Ebook(Id_Ebook,Autor,CaminhoEbook,Editora,sinopse,NomeLivro,DataAdicionado) Values(@id,@Autor,@CaminhoEbook,@Editora,@sinopse,@NomeLivro,@DataAdicionado)");
             }
             catch(Exception ex)
             {
