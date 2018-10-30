@@ -49,6 +49,7 @@
             this.btn_6 = new System.Windows.Forms.Button();
             this.btn_7 = new System.Windows.Forms.Button();
             this.btn_8 = new System.Windows.Forms.Button();
+            this.btnIntro = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picture_esquerda)).BeginInit();
             this.SuspendLayout();
             // 
@@ -64,12 +65,12 @@
             // 
             this.materialLabel7.AutoSize = true;
             this.materialLabel7.Depth = 0;
-            this.materialLabel7.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.materialLabel7.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel7.Location = new System.Drawing.Point(475, 61);
             this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel7.Name = "materialLabel7";
-            this.materialLabel7.Size = new System.Drawing.Size(132, 18);
+            this.materialLabel7.Size = new System.Drawing.Size(128, 18);
             this.materialLabel7.TabIndex = 14;
             this.materialLabel7.Text = "SEJA BEM VINDO";
             // 
@@ -77,12 +78,12 @@
             // 
             this.materialLabel8.AutoSize = true;
             this.materialLabel8.Depth = 0;
-            this.materialLabel8.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F);
+            this.materialLabel8.Font = new System.Drawing.Font("Roboto", 11F);
             this.materialLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialLabel8.Location = new System.Drawing.Point(440, 146);
             this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel8.Name = "materialLabel8";
-            this.materialLabel8.Size = new System.Drawing.Size(220, 18);
+            this.materialLabel8.Size = new System.Drawing.Size(226, 18);
             this.materialLabel8.TabIndex = 15;
             this.materialLabel8.Text = "Sistema Técnico de Informática ";
             // 
@@ -97,7 +98,8 @@
             this.btn_1.TabIndex = 17;
             this.btn_1.Text = "1 - MP3";
             this.btn_1.UseVisualStyleBackColor = false;
-            this.btn_1.Click += new System.EventHandler(this.button1_Click);
+            this.btn_1.Enter += new System.EventHandler(this.btn_1_Enter);
+            this.btn_1.Leave += new System.EventHandler(this.btn_1_Leave);
             // 
             // btn_2
             // 
@@ -110,17 +112,22 @@
             this.btn_2.TabIndex = 18;
             this.btn_2.Text = "2 - EBOOK";
             this.btn_2.UseVisualStyleBackColor = false;
+            this.btn_2.Enter += new System.EventHandler(this.btn_2_Enter);
+            this.btn_2.Leave += new System.EventHandler(this.btn_2_Leave);
             // 
             // btn_3
             // 
             this.btn_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_3.ForeColor = System.Drawing.Color.White;
-            this.btn_3.Location = new System.Drawing.Point(43, 463);
+            this.btn_3.Location = new System.Drawing.Point(43, 465);
             this.btn_3.Name = "btn_3";
             this.btn_3.Size = new System.Drawing.Size(244, 37);
             this.btn_3.TabIndex = 19;
             this.btn_3.Text = "3 - RADIO ONLINE";
             this.btn_3.UseVisualStyleBackColor = true;
+            this.btn_3.Click += new System.EventHandler(this.btn_3_Click);
+            this.btn_3.Enter += new System.EventHandler(this.btn_3_Enter);
+            this.btn_3.Leave += new System.EventHandler(this.btn_3_Leave);
             // 
             // btn_4
             // 
@@ -132,6 +139,8 @@
             this.btn_4.TabIndex = 20;
             this.btn_4.Text = "4 - AJUDA";
             this.btn_4.UseVisualStyleBackColor = true;
+            this.btn_4.Enter += new System.EventHandler(this.btn_4_Enter);
+            this.btn_4.Leave += new System.EventHandler(this.btn_4_Leave);
             // 
             // label_oquedeseja
             // 
@@ -193,7 +202,7 @@
             this.picture_direita.Location = new System.Drawing.Point(1042, 25);
             this.picture_direita.Name = "picture_direita";
             this.picture_direita.Size = new System.Drawing.Size(175, 186);
-            this.picture_direita.TabIndex = 24;
+            this.picture_direita.TabIndex = 2;
             this.picture_direita.UseVisualStyleBackColor = true;
             // 
             // label_esc
@@ -218,6 +227,9 @@
             this.btn_5.TabIndex = 26;
             this.btn_5.Text = "5 - JOGOS";
             this.btn_5.UseVisualStyleBackColor = false;
+            this.btn_5.Click += new System.EventHandler(this.btn_5_Click);
+            this.btn_5.Enter += new System.EventHandler(this.btn_5_Enter);
+            this.btn_5.Leave += new System.EventHandler(this.btn_5_Leave);
             // 
             // btn_6
             // 
@@ -229,6 +241,9 @@
             this.btn_6.TabIndex = 27;
             this.btn_6.Text = "6 - CALCULADORA";
             this.btn_6.UseVisualStyleBackColor = true;
+            this.btn_6.Click += new System.EventHandler(this.btn_6_Click);
+            this.btn_6.Enter += new System.EventHandler(this.btn_6_Enter);
+            this.btn_6.Leave += new System.EventHandler(this.btn_6_Leave);
             // 
             // btn_7
             // 
@@ -240,6 +255,8 @@
             this.btn_7.TabIndex = 28;
             this.btn_7.Text = "7 - EMAIL";
             this.btn_7.UseVisualStyleBackColor = true;
+            this.btn_7.Enter += new System.EventHandler(this.btn_7_Enter);
+            this.btn_7.Leave += new System.EventHandler(this.btn_7_Leave);
             // 
             // btn_8
             // 
@@ -251,13 +268,31 @@
             this.btn_8.TabIndex = 29;
             this.btn_8.Text = "8 - NAVEGADOR";
             this.btn_8.UseVisualStyleBackColor = true;
+            this.btn_8.Enter += new System.EventHandler(this.btn_8_Enter);
+            this.btn_8.Leave += new System.EventHandler(this.btn_8_Leave);
+            // 
+            // btnIntro
+            // 
+            this.btnIntro.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnIntro.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIntro.ForeColor = System.Drawing.Color.White;
+            this.btnIntro.Location = new System.Drawing.Point(1221, 12);
+            this.btnIntro.Name = "btnIntro";
+            this.btnIntro.Size = new System.Drawing.Size(87, 35);
+            this.btnIntro.TabIndex = 0;
+            this.btnIntro.Text = "Intro";
+            this.btnIntro.UseVisualStyleBackColor = false;
+            this.btnIntro.Click += new System.EventHandler(this.btnIntro_Click);
+            this.btnIntro.Enter += new System.EventHandler(this.btnIntro_Enter);
+            this.btnIntro.Leave += new System.EventHandler(this.btnIntro_Leave);
             // 
             // TelaInicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(1294, 604);
+            this.ClientSize = new System.Drawing.Size(1338, 604);
+            this.Controls.Add(this.btnIntro);
             this.Controls.Add(this.btn_8);
             this.Controls.Add(this.btn_7);
             this.Controls.Add(this.btn_6);
@@ -275,8 +310,12 @@
             this.Controls.Add(this.materialLabel8);
             this.Controls.Add(this.materialLabel7);
             this.Controls.Add(this.linkLabel1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "TelaInicial";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.TelaInicial_Load);
+            this.Click += new System.EventHandler(this.TelaInicial_Click);
             ((System.ComponentModel.ISupportInitialize)(this.picture_esquerda)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -303,5 +342,6 @@
         private System.Windows.Forms.Button btn_6;
         private System.Windows.Forms.Button btn_7;
         private System.Windows.Forms.Button btn_8;
+        private System.Windows.Forms.Button btnIntro;
     }
 }

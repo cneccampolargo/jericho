@@ -9,511 +9,559 @@ namespace Jericho.Model
 {
     public class Falar
     {
-        SpeechSynthesizer voz;
-        SpeechSynthesizer speech = new SpeechSynthesizer();
+        // SpeechSynthesizer voz;
+        SpeechSynthesizer Speech = new SpeechSynthesizer();
+        public bool Completado { get; set; } = false;
+
 
 
         public Falar()
         {
-            voz = new SpeechSynthesizer();
+
+
+
         }
+
+
+
         public List<string> Vozes()
         {
+
             List<string> listaDeVozes = new List<string>();
-            foreach (var vozes in voz.GetInstalledVoices())
+            foreach (var vozes in Speech.GetInstalledVoices())
             {
                 listaDeVozes.Add(vozes.VoiceInfo.Name);
             }
             return listaDeVozes;
         }
 
+
+        public void ParaVoz()
+        {
+            Speech.Pause();
+            Speech.Dispose();
+
+        }
+        /// <summary>
+        /// Retorno verdade se uma voz estiver sendo executada;
+        /// </summary>
+        /// <returns></returns>
+
+        public bool FalarState()
+        {
+            if (Speech.State == SynthesizerState.Ready)
+            {
+
+                return true;
+            }
+            return false;
+
+        }
+
         // FALA TEXTO COMPLETO
         public void FalarTexto(string voz, string texto)
         {
-            speech = new SpeechSynthesizer();
-            speech.SelectVoice(voz);
-            speech.SetOutputToDefaultAudioDevice();
-            speech.Rate = 0;
-            speech.SpeakAsync(texto);
+
+            if (Speech.State == SynthesizerState.Ready)
+            {
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(voz);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 3;
+                Speech.SpeakAsync(texto);
+            }
+
+        }
+
+        public void FalarTextoSemInterrupcao(string voz, string texto)
+        {
+
+            Speech = new SpeechSynthesizer();
+            Speech.SelectVoice(voz);
+            Speech.SetOutputToDefaultAudioDevice();
+            Speech.Rate = -1;
+            Speech.SpeakAsync(texto);
+
+
         }
 
         // FALA LETRA A LETRA CONFORME É DIGITADO
-        public void FalarNumero(string voz, string numero)
+        public void FalarNumero(string vozSystem, string numero)
         {
 
             if (numero == "a")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
                 if (numero == "b")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
-                if (numero == "c")
+            if (numero == "c")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
-            }
-            else
-                if (numero == "d")
-            {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "e")
+            if (numero == "d")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "f")
+            if (numero == "e")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "g")
+            if (numero == "f")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "h")
+            if (numero == "g")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "i")
+            if (numero == "h")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "j")
+            if (numero == "i")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "k")
+            if (numero == "j")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "l")
+            if (numero == "k")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "m")
+            if (numero == "l")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "n")
+            if (numero == "m")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "o")
+            if (numero == "n")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "p")
+            if (numero == "o")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "q")
+            if (numero == "p")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "r")
+            if (numero == "q")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "s")
+            if (numero == "r")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "t")
+            if (numero == "s")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "u")
+            if (numero == "t")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "v")
+            if (numero == "u")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "w")
+            if (numero == "v")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "x")
+            if (numero == "w")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "y")
+            if (numero == "x")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "z")
+            if (numero == "y")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "A")
+            if (numero == "z")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "B")
+            if (numero == "A")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "C")
+            if (numero == "B")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "D")
+            if (numero == "C")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "E")
+            if (numero == "D")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "F")
+            if (numero == "E")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "G")
+            if (numero == "F")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "H")
+            if (numero == "G")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "I")
+            if (numero == "H")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "J")
+            if (numero == "I")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "K")
+            if (numero == "J")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "L")
+            if (numero == "K")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "M")
+            if (numero == "L")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "N")
+            if (numero == "M")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "O")
+            if (numero == "N")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "P")
+            if (numero == "O")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "Q")
+            if (numero == "P")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "R")
+            if (numero == "Q")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "S")
+            if (numero == "R")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "T")
+            if (numero == "S")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "U")
+            if (numero == "T")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "V")
+            if (numero == "U")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "W")
+            if (numero == "V")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "X")
+            if (numero == "W")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "Y")
+            if (numero == "X")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
-                if (numero == "Z")
+            if (numero == "Y")
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = -1;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
+            }
+            else
+            if (numero == "Z")
+            {
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = -1;
+                Speech.SpeakAsync(numero);
             }
             else
             {
-                speech = new SpeechSynthesizer();
-                speech.SelectVoice(voz);
-                speech.SetOutputToDefaultAudioDevice();
-                speech.Rate = 0;
-                speech.SpeakAsync(numero);
+                Speech = new SpeechSynthesizer();
+                Speech.SelectVoice(vozSystem);
+                Speech.SetOutputToDefaultAudioDevice();
+                Speech.Rate = 0;
+                Speech.SpeakAsync(numero);
             }
         }
     }

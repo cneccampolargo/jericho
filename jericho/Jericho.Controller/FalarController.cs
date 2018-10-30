@@ -7,19 +7,47 @@ using Jericho.Model;
 
 namespace Jericho.Controller
 {
-    public static class FalarController
+    public class FalarController
     {
-        private static Falar Falar = new Falar();
+        public Falar falar = new Falar();
 
-        public static List<string> Vozes()
+        public List<string> Vozes()
         {
-            return Falar.Vozes();
+            return falar.Vozes();
         }
 
-        public static void FalarNumero(string voz, string numero)
+
+        public void FalarNumero(string voz, string numero)
         {
-            Falar.FalarNumero(voz, numero);
+            falar.FalarNumero(voz, numero);
         }
+
+        public void FalarTexto(string voz, string texto)
+        {
+            falar.FalarTexto(voz, texto);
+
+        }
+        public void FalarTextoSemInterrupcao(string voz, string texto)
+        {
+            falar.FalarTextoSemInterrupcao(voz, texto);
+
+        }
+
+        public bool FalarState()
+        {
+           return  falar.FalarState();
+
+
+
+        }
+
+        public void ParaVoz()
+        {
+            falar.ParaVoz();
+        }
+
+
+
 
 
     }
