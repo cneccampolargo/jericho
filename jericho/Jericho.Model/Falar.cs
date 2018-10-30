@@ -11,20 +11,13 @@ namespace Jericho.Model
     {
         // SpeechSynthesizer voz;
         SpeechSynthesizer Speech = new SpeechSynthesizer();
-        public bool Completado { get; set; } = false;
+         public Falar(){}
+        /// <summary>
+        /// Lista as vozes do sistema
+        /// </summary>
+        /// <returns></returns>
 
-
-
-        public Falar()
-        {
-
-
-
-        }
-
-
-
-        public List<string> Vozes()
+         public List<string> Vozes()
         {
 
             List<string> listaDeVozes = new List<string>();
@@ -34,7 +27,9 @@ namespace Jericho.Model
             }
             return listaDeVozes;
         }
-
+        /// <summary>
+        /// Para qualquer voz que esteja rodando
+        /// </summary>
 
         public void ParaVoz()
         {
@@ -67,7 +62,7 @@ namespace Jericho.Model
                 Speech = new SpeechSynthesizer();
                 Speech.SelectVoice(voz);
                 Speech.SetOutputToDefaultAudioDevice();
-                Speech.Rate = 3;
+                Speech.Rate = 0;
                 Speech.SpeakAsync(texto);
             }
 
