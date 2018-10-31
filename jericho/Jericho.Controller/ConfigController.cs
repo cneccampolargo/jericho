@@ -51,5 +51,34 @@ namespace Jericho.Controller
 
            
         }
+        //Busca o nome do usuario
+        public static void selectNome(string chave)
+        {
+            ConfigDao NomeSelect = new ConfigDao();
+            Config result = NomeSelect.selectNome(chave);
+                
+        }
+        //Atualiza o nome do usuario
+        public static void updateNome(string chave, string valor)
+        {
+                ConfigDao nomeupdate = new ConfigDao();
+                nomeupdate.updateNome(chave, valor);
+
+        }
+        //Busca a voz do sistema
+        public static void selectVoz(string chave)
+        {
+            ConfigDao VozSelect = new ConfigDao();
+            Config result = VozSelect.selectVoz(chave);
+
+        }
+        //Altera a voz do sistema
+        public static void updateVoz(string chave, string valor)
+        {
+            ConfigDao vozupdate = new ConfigDao();
+            vozupdate.updateVoz(chave, valor);
+
+        }
+
     }
 }
