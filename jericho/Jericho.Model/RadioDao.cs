@@ -159,8 +159,39 @@ namespace Jericho.Model
                     radio.Nome_Radio = Convert.ToString(dr["Nome"]);
                     radio.urlRadio = Convert.ToString(dr["Link"]);
                     radio.estacao = Convert.ToString(dr["Estacao"]);
-                    radios.Add(radio); 
-                   
+                    radios.Add(radio);
+
+                }
+                return radios;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+            finally
+            {
+                db.CloseConection();
+            }
+        }
+             public List<Radio> BuscarTudoRadio(string parameter)
+        {
+            DataBase db = new DataBase();
+            try
+            {
+                db.OpenConnection();
+                SQLiteDataReader dr;
+
+                db.AddParameter("@parameter", parameter, DbType.String);
+                dr = db.ExecuteReader("select* from RadioOnline where Id_Radio like @parameter or Nome like @parameter or Link like @parameter or Estacao like @parameter");
+                Radio radio = new Radio();
+                List<Radio> radios = new List<Radio>();
+                while (dr.Read())
+                {
+                    radio.Id_Radio = Convert.ToInt32(dr["Id_Radio"]);
+                    radio.Nome_Radio = Convert.ToString(dr["Nome"]);
+                    radio.urlRadio = Convert.ToString(dr["Link"]);
+                    radio.estacao = Convert.ToString(dr["Estacao"]);
+                    radios.Add(radio);
                 }
                 return radios;
             }

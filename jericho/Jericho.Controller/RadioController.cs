@@ -39,6 +39,13 @@ namespace Jericho.Controller
             RadioDao radioDao = new RadioDao();
             return radioDao.GetAll();
         }
+        public static List<Radio> BuscarTudo(string parameter)
+        {
+            RadioDao radioDao = new RadioDao();
+            return radioDao.BuscarTudoRadio(parameter);
+
+        }
+
 
     }
 }

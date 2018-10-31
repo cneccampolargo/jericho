@@ -30,6 +30,7 @@ C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho.Model\bin\Debug\Sy
 C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho.Model\obj\Debug\Jericho.Model.dll
 C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho.Model\obj\Debug\Jericho.Model.pdb
 C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho.Model\obj\Debug\Jericho.Model.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
 C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\Jericho.db
 C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\Jericho.Model.dll.config
 C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\Jericho.Model.dll
@@ -46,3 +47,21 @@ C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\Sy
 C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Model\obj\Debug\Jericho.Model.csprojResolveAssemblyReference.cache
 C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Model\obj\Debug\Jericho.Model.dll
 C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho.Model\obj\Debug\Jericho.Model.pdb
+=======
+C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\Jericho.db
+C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\Jericho.Model.dll.config
+C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\Jericho.Model.dll
+C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\Jericho.Model.pdb
+C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\EntityFramework.dll
+C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\MaterialSkin.dll
+C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\System.Data.SQLite.dll
+C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\EntityFramework.xml
+C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Model\bin\Debug\System.Data.SQLite.xml
+C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Model\obj\Debug\Jericho.Model.csprojResolveAssemblyReference.cache
+C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Model\obj\Debug\Jericho.Model.dll
+C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho.Model\obj\Debug\Jericho.Model.pdb
+>>>>>>> f699dd9b28d3b2faff31ea2375efc41b01cf9ac2

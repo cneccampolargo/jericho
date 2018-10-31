@@ -63,6 +63,96 @@ namespace Jericho.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _12933_right_pointing_magnifying_glass {
+            get {
+                object obj = ResourceManager.GetObject("12933-right-pointing-magnifying-glass", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _12933_right_pointing_magnifying_glass1 {
+            get {
+                object obj = ResourceManager.GetObject("12933-right-pointing-magnifying-glass1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _1f50e {
+            get {
+                object obj = ResourceManager.GetObject("1f50e", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _71646d7673e8847ab07b3b7e78928777__cone_de_pesquisa_c_rculo_by_vexels {
+            get {
+                object obj = ResourceManager.GetObject("71646d7673e8847ab07b3b7e78928777--cone-de-pesquisa-c-rculo-by-vexels", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap avatars_000356896430_cvwzvd_t500x500 {
+            get {
+                object obj = ResourceManager.GetObject("avatars-000356896430-cvwzvd-t500x500", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap avatars_000356896430_cvwzvd_t500x5001 {
+            get {
+                object obj = ResourceManager.GetObject("avatars-000356896430-cvwzvd-t500x5001", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap com_wRemovingthesearchterms_4109236 {
+            get {
+                object obj = ResourceManager.GetObject("com.wRemovingthesearchterms_4109236", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Google_Play_Music_icon {
+            get {
+                object obj = ResourceManager.GetObject("Google_Play_Music_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gpmdp {
+            get {
+                object obj = ResourceManager.GetObject("gpmdp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imagem {
             get {
                 object obj = ResourceManager.GetObject("imagem", resourceCulture);
@@ -93,9 +183,99 @@ namespace Jericho.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap images2 {
+            get {
+                object obj = ResourceManager.GetObject("images2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mp3_bw {
             get {
                 object obj = ResourceManager.GetObject("mp3_bw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap music_icons_art_692210_62079 {
+            get {
+                object obj = ResourceManager.GetObject("music-icons-art-692210-62079", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap play_muisc_material {
+            get {
+                object obj = ResourceManager.GetObject("play_muisc_material", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap playlistlogo {
+            get {
+                object obj = ResourceManager.GetObject("playlistlogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pronto {
+            get {
+                object obj = ResourceManager.GetObject("pronto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sm_5ae0a116262e8 {
+            get {
+                object obj = ResourceManager.GetObject("sm_5ae0a116262e8", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WAVE_DIVIDER {
+            get {
+                object obj = ResourceManager.GetObject("WAVE_DIVIDER", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap YouTube_Music_Icon_16x9_375x267 {
+            get {
+                object obj = ResourceManager.GetObject("YouTube-Music-Icon-16x9-375x267", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap YouTube_Music_Icon_16x9_375x2671 {
+            get {
+                object obj = ResourceManager.GetObject("YouTube-Music-Icon-16x9-375x2671", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -114,8 +114,13 @@ namespace Jericho
             falarController = new FalarController();
             if (true)
             {
+<<<<<<< HEAD
                 string voz =  falarController.Vozes()[0];
                 falarController.FalarTexto(voz, texto);
+=======
+
+                falarController.FalarTexto("IVONA 2 Ricardo",texto);
+>>>>>>> f699dd9b28d3b2faff31ea2375efc41b01cf9ac2
             }
 
 
@@ -199,8 +204,13 @@ namespace Jericho
 
         private void btn_1_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             Player_Mp3 player = new Player_Mp3(@"C:\Users\17000001504\Downloads\Queen-WeAreTheChampions(RockMontreal).mp3", "");
             player.ShowDialog();
+=======
+            mp3_pagina pagina = new mp3_pagina();
+            pagina.ShowDialog();
+>>>>>>> f699dd9b28d3b2faff31ea2375efc41b01cf9ac2
         }
     }
 }
