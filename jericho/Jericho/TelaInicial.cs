@@ -115,7 +115,7 @@ namespace Jericho
             if (true)
             {
 
-                falarController.FalarTexto("Microsoft Maria Desktop",texto);
+                falarController.FalarTexto("IVONA 2 Ricardo",texto);
             }
 
 
@@ -195,6 +195,12 @@ namespace Jericho
         private void btn_5_Leave(object sender, EventArgs e)
         {
             PararVoz();
+        }
+
+        private void btn_1_Click(object sender, EventArgs e)
+        {
+            mp3_pagina pagina = new mp3_pagina();
+            pagina.ShowDialog();
         }
     }
 }

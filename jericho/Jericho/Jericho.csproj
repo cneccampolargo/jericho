@@ -12,8 +12,6 @@
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    
-    
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -87,9 +85,9 @@
     <Compile Include="TelaInicial.Designer.cs">
       <DependentUpon>TelaInicial.cs</DependentUpon>
     </Compile>
-   
-     
-    
+    <EmbeddedResource Include="mp3_pagina.resx">
+      <DependentUpon>mp3_pagina.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -104,7 +102,6 @@
       <DependentUpon>TelaInicial.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config">
-     
     </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -140,6 +137,60 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\mp3_bw.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pronto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1f50e.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12933-right-pointing-magnifying-glass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\com.wRemovingthesearchterms_4109236.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play_muisc_material.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Google_Play_Music_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\music-icons-art-692210-62079.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12933-right-pointing-magnifying-glass1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gpmdp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatars-000356896430-cvwzvd-t500x500.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\playlistlogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatars-000356896430-cvwzvd-t500x5001.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YouTube-Music-Icon-16x9-375x267.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\YouTube-Music-Icon-16x9-375x2671.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WAVE_DIVIDER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sm_5ae0a116262e8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\71646d7673e8847ab07b3b7e78928777--cone-de-pesquisa-c-rculo-by-vexels.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\System.Data.SQLite.Core.1.0.109.2\build\net451\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.109.2\build\net451\System.Data.SQLite.Core.targets')" />
