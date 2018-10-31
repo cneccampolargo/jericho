@@ -114,8 +114,8 @@ namespace Jericho
             falarController = new FalarController();
             if (true)
             {
-
-                falarController.FalarTexto("Microsoft Maria Desktop",texto);
+                string voz =  falarController.Vozes()[0];
+                falarController.FalarTexto(voz, texto);
             }
 
 
@@ -195,6 +195,12 @@ namespace Jericho
         private void btn_5_Leave(object sender, EventArgs e)
         {
             PararVoz();
+        }
+
+        private void btn_1_Click(object sender, EventArgs e)
+        {
+            Player_Mp3 player = new Player_Mp3(@"C:\Users\17000001504\Downloads\Queen-WeAreTheChampions(RockMontreal).mp3", "");
+            player.ShowDialog();
         }
     }
 }
