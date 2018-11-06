@@ -62,17 +62,13 @@ namespace Jericho
 
         private void btn_6_Click(object sender, EventArgs e)
         {
-            FrmCalculadora frmCalculadora = new FrmCalculadora();
-            frmCalculadora.ShowDialog();
+            EbookDao ebookDao = new EbookDao();
 
 
-            //EbookDao ebookDao = new EbookDao();
-
-
-            //foreach (var item in ebookDao.GetAll())
-            //{
-            //    MessageBox.Show(item.idEbook);
-            //}
+            foreach (var item in ebookDao.GetAll())
+            {
+                MessageBox.Show(item.idEbook);
+            }
         }
 
         private void btnIntro_Click(object sender, EventArgs e)
@@ -120,8 +116,6 @@ namespace Jericho
             {
                 string voz =  falarController.Vozes()[0];
                 falarController.FalarTexto(voz, texto);
-
-                //falarController.FalarTexto("Microsoft Maria Desktop", texto);
             }
 
 
@@ -140,8 +134,7 @@ namespace Jericho
 
         private void btn_3_Click(object sender, EventArgs e)
         {
-            Player_RadioOnline radio = new Player_RadioOnline("https://www.radios.com.br/players/listen-radio.m3u?radio=8829","Radio teste");
-            radio.ShowDialog();
+
         }
 
         private void btn_3_Enter(object sender, EventArgs e)
@@ -206,49 +199,8 @@ namespace Jericho
 
         private void btn_1_Click(object sender, EventArgs e)
         {
-            Player_Mp3 player = new Player_Mp3(@"C:\Users\Public\Music\Sample Music\Maid with the Flaxen Hair.mp3", "");
+            Player_Mp3 player = new Player_Mp3(@"C:\Users\17000001504\Downloads\Queen-WeAreTheChampions(RockMontreal).mp3", "");
             player.ShowDialog();
-
-            mp3_pagina pagina = new mp3_pagina();
-            pagina.ShowDialog();
-
         }
-
-        private void btn_2_Click(object sender, EventArgs e)
-        {
-           
-        
-        }
-
-
-        //MUSICAS
-        private void btn9Musicas_Enter(object sender, EventArgs e)
-        {
-            FalarTexto("musicas");
-        }
-        private void btn9Musicas_Leave(object sender, EventArgs e)
-        {
-            PararVoz();
-        }
-        private void btn9Musicas_Click(object sender, EventArgs e)
-        {
-            TelaFiles filesTela = new TelaFiles();
-            filesTela.Show();
-        }
-        // AJUSTES
-        private void btn10Ajustes_Enter(object sender, EventArgs e)
-        {
-            FalarTexto("ajustes");
-        }
-        private void btn10Ajustes_Leave(object sender, EventArgs e)
-        {
-            PararVoz();
-        }
-        private void btn10Ajustes_Click(object sender, EventArgs e)
-        {
-            TelaConfig configTela = new TelaConfig();
-            configTela.Show();
-        }
-
     }
 }

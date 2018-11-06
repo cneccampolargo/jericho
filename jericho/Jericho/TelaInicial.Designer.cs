@@ -31,6 +31,8 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaInicial));
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
             this.btn_1 = new System.Windows.Forms.Button();
             this.btn_2 = new System.Windows.Forms.Button();
             this.btn_3 = new System.Windows.Forms.Button();
@@ -48,8 +50,6 @@
             this.btn_7 = new System.Windows.Forms.Button();
             this.btn_8 = new System.Windows.Forms.Button();
             this.btnIntro = new System.Windows.Forms.Button();
-            this.btn9Musicas = new System.Windows.Forms.Button();
-            this.btn10Ajustes = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picture_esquerda)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,6 +60,32 @@
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(0, 13);
             this.linkLabel1.TabIndex = 7;
+            // 
+            // materialLabel7
+            // 
+            this.materialLabel7.AutoSize = true;
+            this.materialLabel7.Depth = 0;
+            this.materialLabel7.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel7.Location = new System.Drawing.Point(475, 61);
+            this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel7.Name = "materialLabel7";
+            this.materialLabel7.Size = new System.Drawing.Size(129, 19);
+            this.materialLabel7.TabIndex = 14;
+            this.materialLabel7.Text = "SEJA BEM VINDO";
+            // 
+            // materialLabel8
+            // 
+            this.materialLabel8.AutoSize = true;
+            this.materialLabel8.Depth = 0;
+            this.materialLabel8.Font = new System.Drawing.Font("Roboto", 11F);
+            this.materialLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialLabel8.Location = new System.Drawing.Point(440, 146);
+            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel8.Name = "materialLabel8";
+            this.materialLabel8.Size = new System.Drawing.Size(227, 19);
+            this.materialLabel8.TabIndex = 15;
+            this.materialLabel8.Text = "Sistema Técnico de Informática ";
             // 
             // btn_1
             // 
@@ -87,7 +113,6 @@
             this.btn_2.TabIndex = 18;
             this.btn_2.Text = "2 - EBOOK";
             this.btn_2.UseVisualStyleBackColor = false;
-            this.btn_2.Click += new System.EventHandler(this.btn_2_Click);
             this.btn_2.Enter += new System.EventHandler(this.btn_2_Enter);
             this.btn_2.Leave += new System.EventHandler(this.btn_2_Leave);
             // 
@@ -262,43 +287,12 @@
             this.btnIntro.Enter += new System.EventHandler(this.btnIntro_Enter);
             this.btnIntro.Leave += new System.EventHandler(this.btnIntro_Leave);
             // 
-            // btn9Musicas
-            // 
-            this.btn9Musicas.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btn9Musicas.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn9Musicas.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn9Musicas.Location = new System.Drawing.Point(732, 349);
-            this.btn9Musicas.Name = "btn9Musicas";
-            this.btn9Musicas.Size = new System.Drawing.Size(244, 35);
-            this.btn9Musicas.TabIndex = 30;
-            this.btn9Musicas.Text = "9 - MUSICAS";
-            this.btn9Musicas.UseVisualStyleBackColor = false;
-            this.btn9Musicas.Click += new System.EventHandler(this.btn9Musicas_Click);
-            this.btn9Musicas.Enter += new System.EventHandler(this.btn9Musicas_Enter);
-            this.btn9Musicas.Leave += new System.EventHandler(this.btn9Musicas_Leave);
-            // 
-            // btn10Ajustes
-            // 
-            this.btn10Ajustes.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btn10Ajustes.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn10Ajustes.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn10Ajustes.Location = new System.Drawing.Point(732, 409);
-            this.btn10Ajustes.Name = "btn10Ajustes";
-            this.btn10Ajustes.Size = new System.Drawing.Size(244, 35);
-            this.btn10Ajustes.TabIndex = 31;
-            this.btn10Ajustes.Text = "10 - AJUSTES";
-            this.btn10Ajustes.UseVisualStyleBackColor = false;
-            this.btn10Ajustes.Click += new System.EventHandler(this.btn10Ajustes_Click);
-            this.btn10Ajustes.Enter += new System.EventHandler(this.btn10Ajustes_Enter);
-            // 
             // TelaInicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1338, 604);
-            this.Controls.Add(this.btn10Ajustes);
-            this.Controls.Add(this.btn9Musicas);
             this.Controls.Add(this.btnIntro);
             this.Controls.Add(this.btn_8);
             this.Controls.Add(this.btn_7);
@@ -314,6 +308,8 @@
             this.Controls.Add(this.btn_2);
             this.Controls.Add(this.btn_1);
             this.Controls.Add(this.picture_esquerda);
+            this.Controls.Add(this.materialLabel8);
+            this.Controls.Add(this.materialLabel7);
             this.Controls.Add(this.linkLabel1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -329,7 +325,8 @@
 
         #endregion
         private System.Windows.Forms.LinkLabel linkLabel1;
-      
+        private MaterialSkin.Controls.MaterialLabel materialLabel7;
+        private MaterialSkin.Controls.MaterialLabel materialLabel8;
         private System.Windows.Forms.PictureBox picture_esquerda;
         private System.Windows.Forms.Button btn_1;
         private System.Windows.Forms.Button btn_2;
@@ -347,7 +344,5 @@
         private System.Windows.Forms.Button btn_7;
         private System.Windows.Forms.Button btn_8;
         private System.Windows.Forms.Button btnIntro;
-        private System.Windows.Forms.Button btn9Musicas;
-        private System.Windows.Forms.Button btn10Ajustes;
     }
 }

@@ -1,0 +1,118 @@
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho\bin\Debug\Jericho.exe.config
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho\bin\Debug\Jericho.db
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho\bin\Debug\Jericho.exe
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho\bin\Debug\Jericho.pdb
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho\bin\Debug\EntityFramework.dll
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho\bin\Debug\Jericho.Controller.dll
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho\bin\Debug\Jericho.Model.dll
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho\bin\Debug\MaterialSkin.dll
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho\bin\Debug\System.Data.SQLite.dll
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho\bin\Debug\Jericho.Controller.pdb
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho\bin\Debug\Jericho.Model.pdb
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho\bin\Debug\EntityFramework.xml
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho\bin\Debug\System.Data.SQLite.xml
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho\obj\Debug\Jericho.csprojResolveAssemblyReference.cache
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho\obj\Debug\Jericho.Properties.Resources.resources
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho\obj\Debug\Jericho.TelaInicial.resources
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho\obj\Debug\Jericho.csproj.GenerateResource.Cache
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho\obj\Debug\Jericho.exe
+C:\Users\checkmarcos\Desktop\teste aplicacacao 2\jericho-master (3)\jericho-master\jericho\Jericho\obj\Debug\Jericho.pdb
+C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho\bin\Debug\Jericho.db
+C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho\bin\Debug\Jericho.exe.config
+C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho\bin\Debug\Jericho.exe
+C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho\bin\Debug\Jericho.pdb
+C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho\bin\Debug\EntityFramework.dll
+C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho\bin\Debug\Jericho.Controller.dll
+C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho\bin\Debug\Jericho.Model.dll
+C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho\bin\Debug\MaterialSkin.dll
+C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho\bin\Debug\System.Data.SQLite.dll
+C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho\bin\Debug\Jericho.Controller.pdb
+C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho\bin\Debug\Jericho.Model.pdb
+C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho\bin\Debug\EntityFramework.xml
+C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho\bin\Debug\System.Data.SQLite.xml
+C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho\obj\Debug\Jericho.csprojResolveAssemblyReference.cache
+C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho\obj\Debug\Jericho.Properties.Resources.resources
+C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho\obj\Debug\Jericho.TelaInicial.resources
+C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho\obj\Debug\Jericho.csproj.GenerateResource.Cache
+C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho\obj\Debug\Jericho.exe
+C:\Users\checkmarcos\Documents\github\jericho\jericho\Jericho\obj\Debug\Jericho.pdb
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.exe.config
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.exe
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.pdb
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.db
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.exe
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.pdb
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\EntityFramework.dll
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.Controller.dll
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.Model.dll
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\MaterialSkin.dll
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\System.Data.SQLite.dll
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.Controller.pdb
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.Model.pdb
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\EntityFramework.xml
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\System.Data.SQLite.xml
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Interop.WMPLib.dll
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.csprojResolveAssemblyReference.cache
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Interop.WMPLib.dll
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.csproj.ResolveComReference.cache
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.Player_Mp3.resources
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.Properties.Resources.resources
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.TelaInicial.resources
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.csproj.GenerateResource.Cache
+C:\Users\17000001504\Desktop\jericho-6e1b9104e1ea32c65c6de478db38c9c498d31fd6\jericho\Jericho\bin\Debug\Jericho.exe.config
+C:\Users\17000001504\Desktop\jericho-6e1b9104e1ea32c65c6de478db38c9c498d31fd6\jericho\Jericho\obj\Debug\Interop.WMPLib.dll
+C:\Users\17000001504\Desktop\jericho-6e1b9104e1ea32c65c6de478db38c9c498d31fd6\jericho\Jericho\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\17000001504\Desktop\jericho-6e1b9104e1ea32c65c6de478db38c9c498d31fd6\jericho\Jericho\obj\Debug\Jericho.csproj.ResolveComReference.cache
+C:\Users\17000001504\Desktop\jericho-6e1b9104e1ea32c65c6de478db38c9c498d31fd6\jericho\Jericho\obj\Debug\Jericho.exe
+C:\Users\17000001504\Desktop\jericho-6e1b9104e1ea32c65c6de478db38c9c498d31fd6\jericho\Jericho\obj\Debug\Jericho.pdb
+C:\Users\17000001504\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.mp3_pagina.resources
+C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho\bin\Debug\Jericho.exe.config
+C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Interop.WMPLib.dll
+C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.csproj.ResolveComReference.cache
+C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.exe
+C:\Users\17000002004\Documents\GitHub\jericho\jericho\Jericho\obj\Debug\Jericho.pdb
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\bin\Debug\Jericho.exe.config
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\obj\Debug\Interop.WMPLib.dll
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\obj\Debug\Jericho.csproj.ResolveComReference.cache
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\obj\Debug\Jericho.exe
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\obj\Debug\Jericho.pdb
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\bin\Debug\Jericho.db
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\bin\Debug\Jericho.exe
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\bin\Debug\Jericho.pdb
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\bin\Debug\EntityFramework.dll
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\bin\Debug\Jericho.Controller.dll
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\bin\Debug\Jericho.Model.dll
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\bin\Debug\MaterialSkin.dll
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\bin\Debug\System.Data.SQLite.dll
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\bin\Debug\Jericho.Controller.pdb
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\bin\Debug\Jericho.Model.pdb
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\bin\Debug\EntityFramework.xml
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\bin\Debug\System.Data.SQLite.xml
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\bin\Debug\Interop.WMPLib.dll
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\obj\Debug\Jericho.csprojResolveAssemblyReference.cache
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\obj\Debug\Jericho.mp3_pagina.resources
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\obj\Debug\Jericho.Player_Mp3.resources
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\obj\Debug\Jericho.Properties.Resources.resources
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\obj\Debug\Jericho.TelaInicial.resources
+C:\Users\17000002004\Desktop\JERICHO CERTO\jericho\Jericho\obj\Debug\Jericho.csproj.GenerateResource.Cache
