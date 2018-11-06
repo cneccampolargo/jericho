@@ -63,39 +63,9 @@ namespace Jericho.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _12933_right_pointing_magnifying_glass {
+        internal static System.Drawing.Bitmap _002110_glossy_black_3d_button_icon_media_a_media22_arrow_forward1 {
             get {
-                object obj = ResourceManager.GetObject("12933-right-pointing-magnifying-glass", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _12933_right_pointing_magnifying_glass1 {
-            get {
-                object obj = ResourceManager.GetObject("12933-right-pointing-magnifying-glass1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _1f50e {
-            get {
-                object obj = ResourceManager.GetObject("1f50e", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap _71646d7673e8847ab07b3b7e78928777__cone_de_pesquisa_c_rculo_by_vexels {
-            get {
-                object obj = ResourceManager.GetObject("71646d7673e8847ab07b3b7e78928777--cone-de-pesquisa-c-rculo-by-vexels", resourceCulture);
+                object obj = ResourceManager.GetObject("002110-glossy-black-3d-button-icon-media-a-media22-arrow-forward1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +83,9 @@ namespace Jericho.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap avatars_000356896430_cvwzvd_t500x5001 {
+        internal static System.Drawing.Bitmap black_youtube_logo_pngd1e_4b74_b2e7_745c6b3c0add {
             get {
-                object obj = ResourceManager.GetObject("avatars-000356896430-cvwzvd-t500x5001", resourceCulture);
+                object obj = ResourceManager.GetObject("black-youtube-logo-pngd1e-4b74-b2e7-745c6b3c0add", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +93,9 @@ namespace Jericho.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap com_wRemovingthesearchterms_4109236 {
+        internal static System.Drawing.Bitmap gettyimages_663936454_170x170 {
             get {
-                object obj = ResourceManager.GetObject("com.wRemovingthesearchterms_4109236", resourceCulture);
+                object obj = ResourceManager.GetObject("gettyimages-663936454-170x170", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,9 +113,9 @@ namespace Jericho.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap gpmdp {
+        internal static System.Drawing.Bitmap Ic_pause_circle_fill_48px_svg {
             get {
-                object obj = ResourceManager.GetObject("gpmdp", resourceCulture);
+                object obj = ResourceManager.GetObject("Ic_pause_circle_fill_48px.svg", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -183,16 +153,6 @@ namespace Jericho.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap images2 {
-            get {
-                object obj = ResourceManager.GetObject("images2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap mp3_bw {
             get {
                 object obj = ResourceManager.GetObject("mp3_bw", resourceCulture);
@@ -203,9 +163,9 @@ namespace Jericho.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap music_icons_art_692210_62079 {
+        internal static System.Drawing.Bitmap Sem_título {
             get {
-                object obj = ResourceManager.GetObject("music-icons-art-692210-62079", resourceCulture);
+                object obj = ResourceManager.GetObject("Sem título", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -213,9 +173,9 @@ namespace Jericho.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap play_muisc_material {
+        internal static System.Drawing.Bitmap Sem_Título_3 {
             get {
-                object obj = ResourceManager.GetObject("play_muisc_material", resourceCulture);
+                object obj = ResourceManager.GetObject("Sem Título-3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -223,9 +183,9 @@ namespace Jericho.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap playlistlogo {
+        internal static System.Drawing.Bitmap Sem_título444 {
             get {
-                object obj = ResourceManager.GetObject("playlistlogo", resourceCulture);
+                object obj = ResourceManager.GetObject("Sem título444", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -233,9 +193,9 @@ namespace Jericho.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap pronto {
+        internal static System.Drawing.Bitmap Sem_título54 {
             get {
-                object obj = ResourceManager.GetObject("pronto", resourceCulture);
+                object obj = ResourceManager.GetObject("Sem título54", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -243,9 +203,9 @@ namespace Jericho.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap sm_5ae0a116262e8 {
+        internal static System.Drawing.Bitmap Sem_título555 {
             get {
-                object obj = ResourceManager.GetObject("sm_5ae0a116262e8", resourceCulture);
+                object obj = ResourceManager.GetObject("Sem título555", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,9 +213,9 @@ namespace Jericho.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap WAVE_DIVIDER {
+        internal static System.Drawing.Bitmap Sem_título623 {
             get {
-                object obj = ResourceManager.GetObject("WAVE_DIVIDER", resourceCulture);
+                object obj = ResourceManager.GetObject("Sem título623", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -263,9 +223,9 @@ namespace Jericho.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap YouTube_Music_Icon_16x9_375x267 {
+        internal static System.Drawing.Bitmap square_vector_grey_4 {
             get {
-                object obj = ResourceManager.GetObject("YouTube-Music-Icon-16x9-375x267", resourceCulture);
+                object obj = ResourceManager.GetObject("square-vector-grey-4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -273,9 +233,9 @@ namespace Jericho.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap YouTube_Music_Icon_16x9_375x2671 {
+        internal static System.Drawing.Bitmap Very_Basic_Minus_icon {
             get {
-                object obj = ResourceManager.GetObject("YouTube-Music-Icon-16x9-375x2671", resourceCulture);
+                object obj = ResourceManager.GetObject("Very-Basic-Minus-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
