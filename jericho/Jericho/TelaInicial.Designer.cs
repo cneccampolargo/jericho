@@ -31,8 +31,6 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TelaInicial));
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
             this.btn_1 = new System.Windows.Forms.Button();
             this.btn_2 = new System.Windows.Forms.Button();
             this.btn_3 = new System.Windows.Forms.Button();
@@ -60,32 +58,6 @@
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(0, 13);
             this.linkLabel1.TabIndex = 7;
-            // 
-            // materialLabel7
-            // 
-            this.materialLabel7.AutoSize = true;
-            this.materialLabel7.Depth = 0;
-            this.materialLabel7.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel7.Location = new System.Drawing.Point(475, 61);
-            this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel7.Name = "materialLabel7";
-            this.materialLabel7.Size = new System.Drawing.Size(129, 19);
-            this.materialLabel7.TabIndex = 14;
-            this.materialLabel7.Text = "SEJA BEM VINDO";
-            // 
-            // materialLabel8
-            // 
-            this.materialLabel8.AutoSize = true;
-            this.materialLabel8.Depth = 0;
-            this.materialLabel8.Font = new System.Drawing.Font("Roboto", 11F);
-            this.materialLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialLabel8.Location = new System.Drawing.Point(440, 146);
-            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel8.Name = "materialLabel8";
-            this.materialLabel8.Size = new System.Drawing.Size(227, 19);
-            this.materialLabel8.TabIndex = 15;
-            this.materialLabel8.Text = "Sistema Técnico de Informática ";
             // 
             // btn_1
             // 
@@ -308,8 +280,6 @@
             this.Controls.Add(this.btn_2);
             this.Controls.Add(this.btn_1);
             this.Controls.Add(this.picture_esquerda);
-            this.Controls.Add(this.materialLabel8);
-            this.Controls.Add(this.materialLabel7);
             this.Controls.Add(this.linkLabel1);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -325,8 +295,7 @@
 
         #endregion
         private System.Windows.Forms.LinkLabel linkLabel1;
-        private MaterialSkin.Controls.MaterialLabel materialLabel7;
-        private MaterialSkin.Controls.MaterialLabel materialLabel8;
+      
         private System.Windows.Forms.PictureBox picture_esquerda;
         private System.Windows.Forms.Button btn_1;
         private System.Windows.Forms.Button btn_2;

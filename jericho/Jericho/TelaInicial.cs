@@ -62,13 +62,17 @@ namespace Jericho
 
         private void btn_6_Click(object sender, EventArgs e)
         {
-            EbookDao ebookDao = new EbookDao();
+            FrmCalculadora frmCalculadora = new FrmCalculadora();
+            frmCalculadora.ShowDialog();
 
 
-            foreach (var item in ebookDao.GetAll())
-            {
-                MessageBox.Show(item.idEbook);
-            }
+            //EbookDao ebookDao = new EbookDao();
+
+
+            //foreach (var item in ebookDao.GetAll())
+            //{
+            //    MessageBox.Show(item.idEbook);
+            //}
         }
 
         private void btnIntro_Click(object sender, EventArgs e)
@@ -114,13 +118,10 @@ namespace Jericho
             falarController = new FalarController();
             if (true)
             {
-<<<<<<< HEAD
                 string voz =  falarController.Vozes()[0];
                 falarController.FalarTexto(voz, texto);
-=======
 
-                falarController.FalarTexto("IVONA 2 Ricardo",texto);
->>>>>>> f699dd9b28d3b2faff31ea2375efc41b01cf9ac2
+                //falarController.FalarTexto("Microsoft Maria Desktop", texto);
             }
 
 
@@ -139,7 +140,8 @@ namespace Jericho
 
         private void btn_3_Click(object sender, EventArgs e)
         {
-
+            Player_RadioOnline radio = new Player_RadioOnline("https://www.radios.com.br/players/listen-radio.m3u?radio=8829","Radio teste");
+            radio.ShowDialog();
         }
 
         private void btn_3_Enter(object sender, EventArgs e)
@@ -204,13 +206,12 @@ namespace Jericho
 
         private void btn_1_Click(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            Player_Mp3 player = new Player_Mp3(@"C:\Users\17000001504\Downloads\Queen-WeAreTheChampions(RockMontreal).mp3", "");
+            Player_Mp3 player = new Player_Mp3(@"C:\arquivos\musicas\best of hinos\01 - Sou Feliz.mp3", "");
             player.ShowDialog();
-=======
+
             mp3_pagina pagina = new mp3_pagina();
             pagina.ShowDialog();
->>>>>>> f699dd9b28d3b2faff31ea2375efc41b01cf9ac2
+
         }
     }
 }

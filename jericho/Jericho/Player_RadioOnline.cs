@@ -22,7 +22,7 @@ namespace Jericho
         public Player_RadioOnline(string url, string nome)
         {
             InitializeComponent();      
-            this .url = url;
+            this.url = url;
 
             }
         
