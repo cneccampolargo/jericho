@@ -48,6 +48,8 @@
             this.btn_7 = new System.Windows.Forms.Button();
             this.btn_8 = new System.Windows.Forms.Button();
             this.btnIntro = new System.Windows.Forms.Button();
+            this.btn9Musicas = new System.Windows.Forms.Button();
+            this.btn10Ajustes = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picture_esquerda)).BeginInit();
             this.SuspendLayout();
             // 
@@ -260,12 +262,43 @@
             this.btnIntro.Enter += new System.EventHandler(this.btnIntro_Enter);
             this.btnIntro.Leave += new System.EventHandler(this.btnIntro_Leave);
             // 
+            // btn9Musicas
+            // 
+            this.btn9Musicas.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn9Musicas.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn9Musicas.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn9Musicas.Location = new System.Drawing.Point(732, 349);
+            this.btn9Musicas.Name = "btn9Musicas";
+            this.btn9Musicas.Size = new System.Drawing.Size(244, 35);
+            this.btn9Musicas.TabIndex = 30;
+            this.btn9Musicas.Text = "9 - MUSICAS";
+            this.btn9Musicas.UseVisualStyleBackColor = false;
+            this.btn9Musicas.Click += new System.EventHandler(this.btn9Musicas_Click);
+            this.btn9Musicas.Enter += new System.EventHandler(this.btn9Musicas_Enter);
+            this.btn9Musicas.Leave += new System.EventHandler(this.btn9Musicas_Leave);
+            // 
+            // btn10Ajustes
+            // 
+            this.btn10Ajustes.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn10Ajustes.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn10Ajustes.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btn10Ajustes.Location = new System.Drawing.Point(732, 409);
+            this.btn10Ajustes.Name = "btn10Ajustes";
+            this.btn10Ajustes.Size = new System.Drawing.Size(244, 35);
+            this.btn10Ajustes.TabIndex = 31;
+            this.btn10Ajustes.Text = "10 - AJUSTES";
+            this.btn10Ajustes.UseVisualStyleBackColor = false;
+            this.btn10Ajustes.Click += new System.EventHandler(this.btn10Ajustes_Click);
+            this.btn10Ajustes.Enter += new System.EventHandler(this.btn10Ajustes_Enter);
+            // 
             // TelaInicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1338, 604);
+            this.Controls.Add(this.btn10Ajustes);
+            this.Controls.Add(this.btn9Musicas);
             this.Controls.Add(this.btnIntro);
             this.Controls.Add(this.btn_8);
             this.Controls.Add(this.btn_7);
@@ -314,5 +347,7 @@
         private System.Windows.Forms.Button btn_7;
         private System.Windows.Forms.Button btn_8;
         private System.Windows.Forms.Button btnIntro;
+        private System.Windows.Forms.Button btn9Musicas;
+        private System.Windows.Forms.Button btn10Ajustes;
     }
 }

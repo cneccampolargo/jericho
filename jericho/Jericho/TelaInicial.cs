@@ -217,6 +217,38 @@ namespace Jericho
         private void btn_2_Click(object sender, EventArgs e)
         {
            
+        
         }
+
+
+        //MUSICAS
+        private void btn9Musicas_Enter(object sender, EventArgs e)
+        {
+            FalarTexto("musicas");
+        }
+        private void btn9Musicas_Leave(object sender, EventArgs e)
+        {
+            PararVoz();
+        }
+        private void btn9Musicas_Click(object sender, EventArgs e)
+        {
+            TelaFiles filesTela = new TelaFiles();
+            filesTela.Show();
+        }
+        // AJUSTES
+        private void btn10Ajustes_Enter(object sender, EventArgs e)
+        {
+            FalarTexto("ajustes");
+        }
+        private void btn10Ajustes_Leave(object sender, EventArgs e)
+        {
+            PararVoz();
+        }
+        private void btn10Ajustes_Click(object sender, EventArgs e)
+        {
+            TelaConfig configTela = new TelaConfig();
+            configTela.Show();
+        }
+
     }
 }

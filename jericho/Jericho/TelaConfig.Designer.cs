@@ -110,6 +110,7 @@
             this.Controls.Add(this.lbNome);
             this.Controls.Add(this.btnAtualizar);
             this.Name = "TelaConfig";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TelaConfig";
             ((System.ComponentModel.ISupportInitialize)(this.trackVolume)).EndInit();
             this.ResumeLayout(false);

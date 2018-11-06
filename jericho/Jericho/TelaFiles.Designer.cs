@@ -158,6 +158,7 @@
             this.Controls.Add(this.lbNome);
             this.Controls.Add(this.btnBuscarFile);
             this.Name = "TelaFiles";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TelaFiles";
             this.ResumeLayout(false);
             this.PerformLayout();
