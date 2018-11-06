@@ -206,12 +206,17 @@ namespace Jericho
 
         private void btn_1_Click(object sender, EventArgs e)
         {
-            Player_Mp3 player = new Player_Mp3(@"C:\arquivos\musicas\best of hinos\01 - Sou Feliz.mp3", "");
+            Player_Mp3 player = new Player_Mp3(@"C:\Users\Public\Music\Sample Music\Maid with the Flaxen Hair.mp3", "");
             player.ShowDialog();
 
             mp3_pagina pagina = new mp3_pagina();
             pagina.ShowDialog();
 
+        }
+
+        private void btn_2_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }

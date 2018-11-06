@@ -85,6 +85,7 @@
             this.btn_2.TabIndex = 18;
             this.btn_2.Text = "2 - EBOOK";
             this.btn_2.UseVisualStyleBackColor = false;
+            this.btn_2.Click += new System.EventHandler(this.btn_2_Click);
             this.btn_2.Enter += new System.EventHandler(this.btn_2_Enter);
             this.btn_2.Leave += new System.EventHandler(this.btn_2_Leave);
             // 
