@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Jericho.Model;
 
 namespace Jericho
 {
@@ -14,19 +15,32 @@ namespace Jericho
     {
         public string url { get; set; }
         public string nomeMusica { get; set; }
-
+        public List<Mp3> Mp3List { get; set; }
+        public bool isList;
         public Player_Mp3(string url, string nome)
         {
+            isList = false;
             InitializeComponent();
             this.url = url;
+        }
+        public Player_Mp3(List<Mp3> mp3s)
+        {
+            InitializeComponent();
+            var myPlayList = Player.playlistCollection.newPlaylist("minhalista");
+            foreach (Mp3 file in mp3s)
+            {
+                var mediaItem = Player.newMedia(file.caminhoMp3);
+                myPlayList.appendItem(mediaItem);
+            }
+
+            Player.currentPlaylist = myPlayList;
+            Player.Ctlcontrols.play();
         }
 
         private void Player_Mp3_Load(object sender, EventArgs e)
         {
-            
-            Player.settings.autoStart = true;
             Player.URL = url;
-
+            Player.Ctlcontrols.play();
         }
 
         private void btn_Play_Click(object sender, EventArgs e)
@@ -46,12 +60,12 @@ namespace Jericho
 
         private void btn_volumeMais_Click(object sender, EventArgs e)
         {
-            Player.settings.volume += 1;
+            Player.settings.volume += 10;
         }
 
         private void btn_volumeMenos_Click(object sender, EventArgs e)
         {
-            Player.settings.volume -= 1;
+            Player.settings.volume -= 10;
         }
 
         private void Player_Mp3_FormClosing(object sender, FormClosingEventArgs e)

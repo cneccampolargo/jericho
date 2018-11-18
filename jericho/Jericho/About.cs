@@ -10,24 +10,14 @@ using System.Windows.Forms;
 
 namespace Jericho
 {
-    public partial class TelaFiles : Form
+    public partial class About : Form
     {
-        public TelaFiles()
+        public About()
         {
             InitializeComponent();
         }
 
-        private void btnBuscarFile_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void btnMoverFile_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void txtNome_TextChanged(object sender, EventArgs e)
+        private void About_Load(object sender, EventArgs e)
         {
 
         }

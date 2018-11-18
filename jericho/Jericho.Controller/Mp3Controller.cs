@@ -49,7 +49,11 @@ namespace Jericho.Model
         {
             Mp3Dao mp3Dao = new Mp3Dao();
             return mp3Dao.BuscarTudoMp3(parameter);
-
+        }
+        public static List<Mp3> GetAll()
+        {
+            Mp3Dao mp3Dao = new Mp3Dao();
+            return mp3Dao.GetAll();
         }
 
     }

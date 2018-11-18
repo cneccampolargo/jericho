@@ -7,15 +7,15 @@ using Jericho.Model;
 
 namespace Jericho.Controller
 {
-   public class FilesController
+   public static class FilesController
     {
-        public void AddFiles(string id ,string nome, string banda, string genero, string url, string nomeFile)
+        public static void AddFiles(string id ,string nome, string banda, string genero, string url, string nomeFile)
         {
             Files add = new Files();
             add.AddFiles(id, nome, banda, genero, url, nomeFile);
         }
 
-        public void DelFiles(string id)
+        public static void DelFiles(string id)
         {
             Files del = new Files();
             del.DelFiles(id);

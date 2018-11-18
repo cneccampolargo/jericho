@@ -117,62 +117,15 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="mp3_bw" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mp3_bw.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Google_Play_Music_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Google_Play_Music_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="square-vector-grey-4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\square-vector-grey-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="avatars-000356896430-cvwzvd-t500x500" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\avatars-000356896430-cvwzvd-t500x5001.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sem título623" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sem título623.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Very-Basic-Minus-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Very-Basic-Minus-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sem título54" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sem título54.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="gettyimages-663936454-170x170" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gettyimages-663936454-170x1701.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Ic_pause_circle_fill_48px.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Ic_pause_circle_fill_48px.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imagem" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\imagem.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sem título444" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sem título444.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="black-youtube-logo-pngd1e-4b74-b2e7-745c6b3c0add" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\black-youtube-logo-pngd1e-4b74-b2e7-745c6b3c0add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sem título" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sem título.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="002110-glossy-black-3d-button-icon-media-a-media22-arrow-forward1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\002110-glossy-black-3d-button-icon-media-a-media22-arrow-forward1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sem título555" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sem título555.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\images.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Sem Título-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sem Título-31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icon-gear-white1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icon-gear-white1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="label20.Text" xml:space="preserve">
+    <value>Projeto Jericho foi desenvolvido pelos alunos do CNEC  2° ano Técnico em Informática, com muita dedicação e desempenho. 
+Com o intuito de facilitar a vida dos deficientes visuais.  
+Foi criado algumas ferramentas: 
+MP3 para tocar as musicas escolhidas pelo usuário.
+Audio Ebook para ouvir o livro que deseja.
+Radio online pesquisa todas as estações e tem a possibilidade de escolher a estação que deseja.
+Calculadora uma ferramenta básica de uso do dia a dia.
+Opção de configuração ajusta as opções: nome, voz, volume.
+     </value>
   </data>
 </root>

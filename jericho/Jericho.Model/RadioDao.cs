@@ -23,10 +23,10 @@ namespace Jericho.Model
                 List<Radio> radios = new List<Radio>();
                 while (dr.Read())
                 {
-                    radio.Id_Radio = Convert.ToInt32(dr["Id_Radio"]);
-                    radio.Nome_Radio = Convert.ToString(dr["Nome"]);
-                    radio.urlRadio = Convert.ToString(dr["Link"]);
-                    radio.estacao = Convert.ToString(dr["Estacao"]);
+                    radio.Id_Radio = Convert.ToString(dr["Id_Radio"]);
+                    radio.Nome = Convert.ToString(dr["Nome"]);
+                    radio.Link = Convert.ToString(dr["Link"]);
+                    radio.Estacao = Convert.ToString(dr["Estacao"]);
                     radios.Add(radio);
                 }
                 return radios;
@@ -53,10 +53,10 @@ namespace Jericho.Model
                 Radio radio = new Radio();
                 if (dr.Read())
                 {
-                    radio.Id_Radio = Convert.ToInt32(dr["Id_Radio"]);
-                    radio.Nome_Radio = Convert.ToString(dr["Nome"]);
-                    radio.urlRadio = Convert.ToString(dr["Link"]);
-                    radio.estacao = Convert.ToString(dr["Estacao"]);
+                    radio.Id_Radio = Convert.ToString(dr["Id_Radio"]);
+                    radio.Nome = Convert.ToString(dr["Nome"]);
+                    radio.Link = Convert.ToString(dr["Link"]);
+                    radio.Estacao = Convert.ToString(dr["Estacao"]);
                     
                 }
                 return radio;
@@ -77,9 +77,9 @@ namespace Jericho.Model
             try
             {
                 db.OpenConnection();
-                db.AddParameter("@nome", radio.Nome_Radio, DbType.String);
-                db.AddParameter("@link", radio.urlRadio, DbType.String);
-                db.AddParameter("@estacao", radio.estacao, DbType.String);
+                db.AddParameter("@nome", radio.Nome, DbType.String);
+                db.AddParameter("@link", radio.Link, DbType.String);
+                db.AddParameter("@estacao", radio.Estacao, DbType.String);
                 return db.ExecuteNoQuery("INSERT INTO RadioOnline(Nome," +
                                                                  "Link," +
                                                                  "Estacao)" +
@@ -123,9 +123,9 @@ namespace Jericho.Model
             try
             {
                 db.OpenConnection();
-                db.AddParameter("@nome", radio.Nome_Radio, DbType.String);
-                db.AddParameter("@link", radio.urlRadio, DbType.String);
-                db.AddParameter("@estacao", radio.estacao, DbType.String);
+                db.AddParameter("@nome", radio.Nome, DbType.String);
+                db.AddParameter("@link", radio.Link, DbType.String);
+                db.AddParameter("@estacao", radio.Estacao, DbType.String);
                 db.AddParameter("@id", radio.Id_Radio, DbType.Int32);
                 return db.ExecuteNoQuery("UPDATE RadioOnline SET (Nome     = @nome," +
                                                            "Link     = @link," +
@@ -155,10 +155,10 @@ namespace Jericho.Model
                 Radio radio = new Radio();
                 while (dr.Read())
                 {
-                    radio.Id_Radio = Convert.ToInt32(dr["Id_Radio"]);
-                    radio.Nome_Radio = Convert.ToString(dr["Nome"]);
-                    radio.urlRadio = Convert.ToString(dr["Link"]);
-                    radio.estacao = Convert.ToString(dr["Estacao"]);
+                    radio.Id_Radio = Convert.ToString(dr["Id_Radio"]);
+                    radio.Nome = Convert.ToString(dr["Nome"]);
+                    radio.Link = Convert.ToString(dr["Link"]);
+                    radio.Estacao = Convert.ToString(dr["Estacao"]);
                     radios.Add(radio); 
                    
                 }

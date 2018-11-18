@@ -15,8 +15,6 @@ namespace Jericho.Model
         public string caminhoMp3 { get; set; }
         public DateTime dataAdicionado { get; set; }
 
-
-
         public Mp3()
         {
 

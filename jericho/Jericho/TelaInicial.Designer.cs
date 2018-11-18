@@ -42,14 +42,15 @@
             this.label3 = new System.Windows.Forms.Label();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.imageList2 = new System.Windows.Forms.ImageList(this.components);
-            this.picture_esquerda = new System.Windows.Forms.PictureBox();
-            this.picture_direita = new System.Windows.Forms.Button();
             this.label_esc = new System.Windows.Forms.Label();
             this.btn_5 = new System.Windows.Forms.Button();
             this.btn_6 = new System.Windows.Forms.Button();
             this.btn_7 = new System.Windows.Forms.Button();
             this.btn_8 = new System.Windows.Forms.Button();
             this.btnIntro = new System.Windows.Forms.Button();
+            this.picture_direita = new System.Windows.Forms.Button();
+            this.picture_esquerda = new System.Windows.Forms.PictureBox();
+            this.btn_9 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.picture_esquerda)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,7 +71,7 @@
             this.materialLabel7.Location = new System.Drawing.Point(475, 61);
             this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel7.Name = "materialLabel7";
-            this.materialLabel7.Size = new System.Drawing.Size(129, 19);
+            this.materialLabel7.Size = new System.Drawing.Size(128, 18);
             this.materialLabel7.TabIndex = 14;
             this.materialLabel7.Text = "SEJA BEM VINDO";
             // 
@@ -83,7 +84,7 @@
             this.materialLabel8.Location = new System.Drawing.Point(440, 146);
             this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel8.Name = "materialLabel8";
-            this.materialLabel8.Size = new System.Drawing.Size(227, 19);
+            this.materialLabel8.Size = new System.Drawing.Size(226, 18);
             this.materialLabel8.TabIndex = 15;
             this.materialLabel8.Text = "Sistema Técnico de Informática ";
             // 
@@ -111,8 +112,9 @@
             this.btn_2.Name = "btn_2";
             this.btn_2.Size = new System.Drawing.Size(243, 32);
             this.btn_2.TabIndex = 18;
-            this.btn_2.Text = "2 - EBOOK";
+            this.btn_2.Text = "2 - AUDIO BOOK";
             this.btn_2.UseVisualStyleBackColor = false;
+            this.btn_2.Click += new System.EventHandler(this.btn_2_Click);
             this.btn_2.Enter += new System.EventHandler(this.btn_2_Enter);
             this.btn_2.Leave += new System.EventHandler(this.btn_2_Leave);
             // 
@@ -187,25 +189,6 @@
             this.imageList2.ImageSize = new System.Drawing.Size(16, 16);
             this.imageList2.TransparentColor = System.Drawing.Color.Transparent;
             // 
-            // picture_esquerda
-            // 
-            this.picture_esquerda.Image = ((System.Drawing.Image)(resources.GetObject("picture_esquerda.Image")));
-            this.picture_esquerda.Location = new System.Drawing.Point(130, 25);
-            this.picture_esquerda.Name = "picture_esquerda";
-            this.picture_esquerda.Size = new System.Drawing.Size(225, 186);
-            this.picture_esquerda.TabIndex = 16;
-            this.picture_esquerda.TabStop = false;
-            // 
-            // picture_direita
-            // 
-            this.picture_direita.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.picture_direita.Image = global::Jericho.Properties.Resources.imagem;
-            this.picture_direita.Location = new System.Drawing.Point(1042, 25);
-            this.picture_direita.Name = "picture_direita";
-            this.picture_direita.Size = new System.Drawing.Size(175, 186);
-            this.picture_direita.TabIndex = 2;
-            this.picture_direita.UseVisualStyleBackColor = true;
-            // 
             // label_esc
             // 
             this.label_esc.AutoSize = true;
@@ -226,7 +209,7 @@
             this.btn_5.Name = "btn_5";
             this.btn_5.Size = new System.Drawing.Size(244, 35);
             this.btn_5.TabIndex = 26;
-            this.btn_5.Text = "5 - JOGOS";
+            this.btn_5.Text = "5 - Sobre";
             this.btn_5.UseVisualStyleBackColor = false;
             this.btn_5.Click += new System.EventHandler(this.btn_5_Click);
             this.btn_5.Enter += new System.EventHandler(this.btn_5_Enter);
@@ -269,6 +252,7 @@
             this.btn_8.TabIndex = 29;
             this.btn_8.Text = "8 - NAVEGADOR";
             this.btn_8.UseVisualStyleBackColor = true;
+            this.btn_8.Click += new System.EventHandler(this.btn_8_Click);
             this.btn_8.Enter += new System.EventHandler(this.btn_8_Enter);
             this.btn_8.Leave += new System.EventHandler(this.btn_8_Leave);
             // 
@@ -287,12 +271,45 @@
             this.btnIntro.Enter += new System.EventHandler(this.btnIntro_Enter);
             this.btnIntro.Leave += new System.EventHandler(this.btnIntro_Leave);
             // 
+            // picture_direita
+            // 
+            this.picture_direita.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.picture_direita.Image = global::Jericho.Properties.Resources.imagem;
+            this.picture_direita.Location = new System.Drawing.Point(1042, 25);
+            this.picture_direita.Name = "picture_direita";
+            this.picture_direita.Size = new System.Drawing.Size(175, 186);
+            this.picture_direita.TabIndex = 2;
+            this.picture_direita.UseVisualStyleBackColor = true;
+            // 
+            // picture_esquerda
+            // 
+            this.picture_esquerda.Image = ((System.Drawing.Image)(resources.GetObject("picture_esquerda.Image")));
+            this.picture_esquerda.Location = new System.Drawing.Point(130, 25);
+            this.picture_esquerda.Name = "picture_esquerda";
+            this.picture_esquerda.Size = new System.Drawing.Size(225, 186);
+            this.picture_esquerda.TabIndex = 16;
+            this.picture_esquerda.TabStop = false;
+            // 
+            // btn_9
+            // 
+            this.btn_9.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_9.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_9.ForeColor = System.Drawing.SystemColors.Control;
+            this.btn_9.Location = new System.Drawing.Point(775, 349);
+            this.btn_9.Name = "btn_9";
+            this.btn_9.Size = new System.Drawing.Size(255, 35);
+            this.btn_9.TabIndex = 30;
+            this.btn_9.Text = "9 - CONFIGURAÇÃO";
+            this.btn_9.UseVisualStyleBackColor = false;
+            this.btn_9.Click += new System.EventHandler(this.btn_9_Click);
+            // 
             // TelaInicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1338, 604);
+            this.Controls.Add(this.btn_9);
             this.Controls.Add(this.btnIntro);
             this.Controls.Add(this.btn_8);
             this.Controls.Add(this.btn_7);
@@ -344,5 +361,6 @@
         private System.Windows.Forms.Button btn_7;
         private System.Windows.Forms.Button btn_8;
         private System.Windows.Forms.Button btnIntro;
+        private System.Windows.Forms.Button btn_9;
     }
 }

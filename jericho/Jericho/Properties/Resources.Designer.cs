@@ -123,6 +123,16 @@ namespace Jericho.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icon_gear_white1 {
+            get {
+                object obj = ResourceManager.GetObject("icon-gear-white1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imagem {
             get {
                 object obj = ResourceManager.GetObject("imagem", resourceCulture);

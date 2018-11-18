@@ -21,5 +21,25 @@ namespace Jericho
         {
 
         }
+
+        private void selectVoz_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void TelaConfig_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtNome_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbNome_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

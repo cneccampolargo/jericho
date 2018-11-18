@@ -44,12 +44,11 @@
             // Player
             // 
             this.Player.Enabled = true;
-            this.Player.Location = new System.Drawing.Point(78, 79);
+            this.Player.Location = new System.Drawing.Point(12, 40);
             this.Player.Name = "Player";
             this.Player.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Player.OcxState")));
             this.Player.Size = new System.Drawing.Size(220, 42);
             this.Player.TabIndex = 1;
-            this.Player.Visible = false;
             // 
             // imageList1
             // 

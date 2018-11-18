@@ -55,21 +55,21 @@ namespace Jericho
         private void btn_5_Click(object sender, EventArgs e)
         {
 
-            Ebook ebook = new Ebook("ebook 1", "xx", "xx", "xx", "xx", "xx", DateTime.Now);
-            EbookDao ebookDao = new EbookDao();
-            ebookDao.InsertEbook(ebook);
+            About sobre = new About();
+            sobre.ShowDialog();
+
+            //Ebook ebook = new Ebook("ebook 1", "xx", "xx", "xx", "xx", "xx", DateTime.Now);
+            //EbookDao ebookDao = new EbookDao();
+            //ebookDao.InsertEbook(ebook);
         }
 
         private void btn_6_Click(object sender, EventArgs e)
         {
-            EbookDao ebookDao = new EbookDao();
 
+            FrmCalculadora calc = new FrmCalculadora();
+            calc.ShowDialog();
 
-            foreach (var item in ebookDao.GetAll())
-            {
-                MessageBox.Show(item.idEbook);
-            }
-        }
+           }
 
         private void btnIntro_Click(object sender, EventArgs e)
         {
@@ -189,7 +189,7 @@ namespace Jericho
 
         private void btn_5_Enter(object sender, EventArgs e)
         {
-            FalarTexto("Jogos");
+            FalarTexto("Sobre o Jericho");
         }
 
         private void btn_5_Leave(object sender, EventArgs e)
@@ -201,6 +201,23 @@ namespace Jericho
         {
             Player_Mp3 player = new Player_Mp3(@"C:\Users\17000001504\Downloads\Queen-WeAreTheChampions(RockMontreal).mp3", "");
             player.ShowDialog();
+        }
+
+        private void btn_9_Click(object sender, EventArgs e)
+        {
+            TelaConfig config = new TelaConfig();
+            config.ShowDialog();
+
+        }
+
+        private void btn_8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

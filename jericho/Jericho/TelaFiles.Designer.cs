@@ -50,6 +50,7 @@
             this.btnBuscarFile.TabIndex = 0;
             this.btnBuscarFile.Text = "BUSCAR...";
             this.btnBuscarFile.UseVisualStyleBackColor = true;
+            this.btnBuscarFile.Click += new System.EventHandler(this.btnBuscarFile_Click);
             // 
             // lbNome
             // 
@@ -66,6 +67,7 @@
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(100, 20);
             this.txtNome.TabIndex = 2;
+            this.txtNome.TextChanged += new System.EventHandler(this.txtNome_TextChanged);
             // 
             // lbBanda
             // 
@@ -139,12 +141,13 @@
             this.btnMoverFile.TabIndex = 11;
             this.btnMoverFile.Text = "MOVER ARQUIVO";
             this.btnMoverFile.UseVisualStyleBackColor = true;
+            this.btnMoverFile.Click += new System.EventHandler(this.btnMoverFile_Click);
             // 
             // TelaFiles
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(401, 306);
+            this.ClientSize = new System.Drawing.Size(1295, 577);
             this.Controls.Add(this.btnMoverFile);
             this.Controls.Add(this.txtNomeFile);
             this.Controls.Add(this.txtUrl);
