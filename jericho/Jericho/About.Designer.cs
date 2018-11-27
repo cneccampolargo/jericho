@@ -95,9 +95,9 @@
             this.label4.ForeColor = System.Drawing.Color.Gold;
             this.label4.Location = new System.Drawing.Point(267, 211);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(120, 25);
+            this.label4.Size = new System.Drawing.Size(138, 25);
             this.label4.TabIndex = 3;
-            this.label4.Text = "Felipe Sloboda";
+            this.label4.Text = "*Felipe Sloboda*";
             // 
             // label5
             // 
@@ -195,9 +195,10 @@
             this.label13.ForeColor = System.Drawing.Color.Gold;
             this.label13.Location = new System.Drawing.Point(455, 211);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(231, 25);
+            this.label13.Size = new System.Drawing.Size(230, 25);
             this.label13.TabIndex = 12;
-            this.label13.Text = "slobodafelipe0183@gmail.com";
+            this.label13.Text = "Felipe.ti.Sloboda@Gmail.com";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label14
             // 
