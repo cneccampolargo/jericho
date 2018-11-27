@@ -198,7 +198,7 @@
             this.label13.Size = new System.Drawing.Size(230, 25);
             this.label13.TabIndex = 12;
             this.label13.Text = "Felipe.ti.Sloboda@Gmail.com";
-            this.label13.Click += new System.EventHandler(this.label13_Click);
+
             // 
             // label14
             // 
