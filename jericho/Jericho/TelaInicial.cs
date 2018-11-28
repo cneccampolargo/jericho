@@ -101,7 +101,6 @@ namespace Jericho
 
         private void PararVoz()
         {
-
             if (falarController.FalarState())
             {
                 falarController.ParaVoz();
@@ -114,12 +113,9 @@ namespace Jericho
             falarController = new FalarController();
             if (true)
             {
-                string voz =  falarController.Vozes()[0];
+                string voz =  falarController.Vozes()[1];
                 falarController.FalarTexto(voz, texto);
             }
-
-
-
         }
 
         private void btn_2_Enter(object sender, EventArgs e)
@@ -134,7 +130,9 @@ namespace Jericho
 
         private void btn_3_Click(object sender, EventArgs e)
         {
-
+            Bitmap Imagemmp3 = Jericho.Properties.Resources.RadioCerto11;
+            mp3_pagina TelaMp3 = new mp3_pagina(Imagemmp3);
+            TelaMp3.ShowDialog();
         }
 
         private void btn_3_Enter(object sender, EventArgs e)
@@ -199,14 +197,33 @@ namespace Jericho
 
         private void btn_1_Click(object sender, EventArgs e)
         {
-            Player_Mp3 player = new Player_Mp3(@"C:\Users\17000001504\Downloads\Queen-WeAreTheChampions(RockMontreal).mp3", "");
-            player.ShowDialog();
+            try
+            {
+                Bitmap Imagemmp3 = Jericho.Properties.Resources.gettyimages_663936454_170x170;
+                mp3_pagina TelaMp3 = new mp3_pagina(Imagemmp3);
+                TelaMp3.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+         
         }
 
         private void btn_9_Click(object sender, EventArgs e)
         {
-            TelaConfig config = new TelaConfig();
-            config.ShowDialog();
+            try
+            {
+                TelaConfig config = new TelaConfig();
+                config.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+          
 
         }
 
@@ -216,6 +233,23 @@ namespace Jericho
         }
 
         private void btn_2_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                Bitmap Imagemmp3 = Jericho.Properties.Resources.Img_Livrosf;
+                mp3_pagina TelaMp3 = new mp3_pagina(Imagemmp3);
+                TelaMp3.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+                
+         
+        }
+
+        private void label_oquedeseja_Click(object sender, EventArgs e)
         {
 
         }

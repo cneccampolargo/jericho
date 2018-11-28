@@ -16,7 +16,7 @@ namespace Jericho.Model
         private SQLiteConnection conn { get; set; }
         private string stringConnection { get; set; }
         private List<SQLiteParameter> listaParameter = new List<SQLiteParameter>();
-        string pathBanco = "Jericho.db"; //Aqui é definido o caminho do banco
+        string pathBanco = @"C:\Users\17000001504\Documents\Jericho.db"; //Aqui é definido o caminho do banco
         public DataBase()
         {
             try

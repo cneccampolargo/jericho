@@ -163,9 +163,49 @@ namespace Jericho.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Img_Livrosf {
+            get {
+                object obj = ResourceManager.GetObject("Img_Livrosf", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mp3_bw {
             get {
                 object obj = ResourceManager.GetObject("mp3_bw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RadioCerto {
+            get {
+                object obj = ResourceManager.GetObject("RadioCerto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RadioCerto1 {
+            get {
+                object obj = ResourceManager.GetObject("RadioCerto1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap RadioCerto11 {
+            get {
+                object obj = ResourceManager.GetObject("RadioCerto11", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

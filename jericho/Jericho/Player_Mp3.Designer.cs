@@ -48,7 +48,8 @@
             this.Player.Name = "Player";
             this.Player.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("Player.OcxState")));
             this.Player.Size = new System.Drawing.Size(220, 42);
-            this.Player.TabIndex = 1;
+            this.Player.TabIndex = 0;
+            this.Player.Visible = false;
             // 
             // imageList1
             // 
@@ -63,7 +64,7 @@
             this.button1.Location = new System.Drawing.Point(471, 40);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(432, 374);
-            this.button1.TabIndex = 6;
+            this.button1.TabIndex = 0;
             this.button1.UseVisualStyleBackColor = true;
             // 
             // btn_volumeMenos
@@ -74,7 +75,7 @@
             this.btn_volumeMenos.Location = new System.Drawing.Point(60, 445);
             this.btn_volumeMenos.Name = "btn_volumeMenos";
             this.btn_volumeMenos.Size = new System.Drawing.Size(193, 189);
-            this.btn_volumeMenos.TabIndex = 5;
+            this.btn_volumeMenos.TabIndex = 1;
             this.btn_volumeMenos.UseVisualStyleBackColor = false;
             this.btn_volumeMenos.Click += new System.EventHandler(this.btn_volumeMenos_Click);
             // 
@@ -86,7 +87,7 @@
             this.btn_volumeMais.Location = new System.Drawing.Point(319, 445);
             this.btn_volumeMais.Name = "btn_volumeMais";
             this.btn_volumeMais.Size = new System.Drawing.Size(193, 193);
-            this.btn_volumeMais.TabIndex = 4;
+            this.btn_volumeMais.TabIndex = 2;
             this.btn_volumeMais.UseVisualStyleBackColor = false;
             this.btn_volumeMais.Click += new System.EventHandler(this.btn_volumeMais_Click);
             // 
@@ -109,7 +110,7 @@
             this.btn_pause.Location = new System.Drawing.Point(866, 445);
             this.btn_pause.Name = "btn_pause";
             this.btn_pause.Size = new System.Drawing.Size(193, 189);
-            this.btn_pause.TabIndex = 2;
+            this.btn_pause.TabIndex = 4;
             this.btn_pause.UseVisualStyleBackColor = false;
             this.btn_pause.Click += new System.EventHandler(this.btn_pause_Click);
             // 
@@ -127,6 +128,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1250, 507);
             this.Controls.Add(this.button1);
@@ -137,7 +139,9 @@
             this.Controls.Add(this.Player);
             this.Controls.Add(this.btn_Play);
             this.Name = "Player_Mp3";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Player_Mp3";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Player_Mp3_FormClosing);
             this.Load += new System.EventHandler(this.Player_Mp3_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Player)).EndInit();

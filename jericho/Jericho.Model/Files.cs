@@ -20,7 +20,6 @@ namespace Jericho.Model
 
         public void AddFiles(string id, string nome, string banda, string genero, string url, string nomeFile)
         {
-
             try
             {
                 if (url == "openFileDialog1" | nomeFile == "openFileDialog1")
@@ -33,7 +32,7 @@ namespace Jericho.Model
                     string nomeArquivoPath = url;
                     string nomeArquivo = nomeFile;
 
-                    File.Copy(nomeArquivoPath, Path.Combine(AppDomain.CurrentDomain.BaseDirectory + @"\arquivos\musicas\", id + ".mp3"));
+                    File.Copy(nomeArquivoPath, Path.Combine(@"C:\Jericho\Arquivos\", id + ".mp3"));
                 }
 
             }

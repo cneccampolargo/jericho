@@ -44,18 +44,18 @@
             // 
             // btnBuscarFile
             // 
-            this.btnBuscarFile.Location = new System.Drawing.Point(71, 245);
+            this.btnBuscarFile.Location = new System.Drawing.Point(72, 245);
             this.btnBuscarFile.Name = "btnBuscarFile";
             this.btnBuscarFile.Size = new System.Drawing.Size(83, 23);
             this.btnBuscarFile.TabIndex = 0;
-            this.btnBuscarFile.Text = "BUSCAR...";
+            this.btnBuscarFile.Text = ".";
             this.btnBuscarFile.UseVisualStyleBackColor = true;
             this.btnBuscarFile.Click += new System.EventHandler(this.btnBuscarFile_Click);
             // 
             // lbNome
             // 
             this.lbNome.AutoSize = true;
-            this.lbNome.Location = new System.Drawing.Point(120, 48);
+            this.lbNome.Location = new System.Drawing.Point(121, 48);
             this.lbNome.Name = "lbNome";
             this.lbNome.Size = new System.Drawing.Size(39, 13);
             this.lbNome.TabIndex = 1;
@@ -63,7 +63,7 @@
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(191, 45);
+            this.txtNome.Location = new System.Drawing.Point(192, 45);
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(100, 20);
             this.txtNome.TabIndex = 2;
@@ -72,7 +72,7 @@
             // lbBanda
             // 
             this.lbBanda.AutoSize = true;
-            this.lbBanda.Location = new System.Drawing.Point(115, 82);
+            this.lbBanda.Location = new System.Drawing.Point(116, 82);
             this.lbBanda.Name = "lbBanda";
             this.lbBanda.Size = new System.Drawing.Size(44, 13);
             this.lbBanda.TabIndex = 3;
@@ -81,7 +81,7 @@
             // lbGenero
             // 
             this.lbGenero.AutoSize = true;
-            this.lbGenero.Location = new System.Drawing.Point(114, 120);
+            this.lbGenero.Location = new System.Drawing.Point(115, 120);
             this.lbGenero.Name = "lbGenero";
             this.lbGenero.Size = new System.Drawing.Size(53, 13);
             this.lbGenero.TabIndex = 4;
@@ -90,7 +90,7 @@
             // lbUrl
             // 
             this.lbUrl.AutoSize = true;
-            this.lbUrl.Location = new System.Drawing.Point(124, 154);
+            this.lbUrl.Location = new System.Drawing.Point(125, 154);
             this.lbUrl.Name = "lbUrl";
             this.lbUrl.Size = new System.Drawing.Size(29, 13);
             this.lbUrl.TabIndex = 5;
@@ -99,7 +99,7 @@
             // lbNomeFile
             // 
             this.lbNomeFile.AutoSize = true;
-            this.lbNomeFile.Location = new System.Drawing.Point(109, 192);
+            this.lbNomeFile.Location = new System.Drawing.Point(110, 192);
             this.lbNomeFile.Name = "lbNomeFile";
             this.lbNomeFile.Size = new System.Drawing.Size(64, 13);
             this.lbNomeFile.TabIndex = 6;
@@ -107,35 +107,35 @@
             // 
             // txtBanda
             // 
-            this.txtBanda.Location = new System.Drawing.Point(191, 79);
+            this.txtBanda.Location = new System.Drawing.Point(192, 79);
             this.txtBanda.Name = "txtBanda";
             this.txtBanda.Size = new System.Drawing.Size(100, 20);
             this.txtBanda.TabIndex = 7;
             // 
             // txtGenero
             // 
-            this.txtGenero.Location = new System.Drawing.Point(191, 117);
+            this.txtGenero.Location = new System.Drawing.Point(192, 117);
             this.txtGenero.Name = "txtGenero";
             this.txtGenero.Size = new System.Drawing.Size(100, 20);
             this.txtGenero.TabIndex = 8;
             // 
             // txtUrl
             // 
-            this.txtUrl.Location = new System.Drawing.Point(191, 151);
+            this.txtUrl.Location = new System.Drawing.Point(192, 151);
             this.txtUrl.Name = "txtUrl";
             this.txtUrl.Size = new System.Drawing.Size(100, 20);
             this.txtUrl.TabIndex = 9;
             // 
             // txtNomeFile
             // 
-            this.txtNomeFile.Location = new System.Drawing.Point(191, 189);
+            this.txtNomeFile.Location = new System.Drawing.Point(192, 189);
             this.txtNomeFile.Name = "txtNomeFile";
             this.txtNomeFile.Size = new System.Drawing.Size(100, 20);
             this.txtNomeFile.TabIndex = 10;
             // 
             // btnMoverFile
             // 
-            this.btnMoverFile.Location = new System.Drawing.Point(187, 245);
+            this.btnMoverFile.Location = new System.Drawing.Point(188, 245);
             this.btnMoverFile.Name = "btnMoverFile";
             this.btnMoverFile.Size = new System.Drawing.Size(142, 23);
             this.btnMoverFile.TabIndex = 11;
@@ -163,6 +163,7 @@
             this.Name = "TelaFiles";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TelaFiles";
+            this.Load += new System.EventHandler(this.TelaFiles_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

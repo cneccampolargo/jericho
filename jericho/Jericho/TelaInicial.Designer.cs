@@ -71,7 +71,7 @@
             this.materialLabel7.Location = new System.Drawing.Point(475, 61);
             this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel7.Name = "materialLabel7";
-            this.materialLabel7.Size = new System.Drawing.Size(128, 18);
+            this.materialLabel7.Size = new System.Drawing.Size(129, 19);
             this.materialLabel7.TabIndex = 14;
             this.materialLabel7.Text = "SEJA BEM VINDO";
             // 
@@ -84,7 +84,7 @@
             this.materialLabel8.Location = new System.Drawing.Point(440, 146);
             this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel8.Name = "materialLabel8";
-            this.materialLabel8.Size = new System.Drawing.Size(226, 18);
+            this.materialLabel8.Size = new System.Drawing.Size(227, 19);
             this.materialLabel8.TabIndex = 15;
             this.materialLabel8.Text = "Sistema Técnico de Informática ";
             // 
@@ -155,6 +155,7 @@
             this.label_oquedeseja.Size = new System.Drawing.Size(270, 37);
             this.label_oquedeseja.TabIndex = 21;
             this.label_oquedeseja.Text = "O QUE DESEJA?";
+            this.label_oquedeseja.Click += new System.EventHandler(this.label_oquedeseja_Click);
             // 
             // label_jericho
             // 

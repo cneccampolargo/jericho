@@ -9,7 +9,7 @@ namespace Jericho.Controller
 {
     public class FalarController
     {
-        public Falar falar = new Falar();
+        public  Falar falar = new Falar();
 
         public List<string> Vozes()
         {
@@ -17,7 +17,7 @@ namespace Jericho.Controller
         }
 
 
-        public void FalarNumero(string voz, string numero)
+        public  void FalarNumero(string voz, string numero)
         {
             falar.FalarNumero(voz, numero);
         }
