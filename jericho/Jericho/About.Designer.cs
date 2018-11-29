@@ -95,9 +95,9 @@
             this.label4.ForeColor = System.Drawing.Color.Gold;
             this.label4.Location = new System.Drawing.Point(267, 211);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(138, 25);
+            this.label4.Size = new System.Drawing.Size(120, 25);
             this.label4.TabIndex = 3;
-            this.label4.Text = "*Felipe Sloboda*";
+            this.label4.Text = "Felipe Sloboda";
             // 
             // label5
             // 
@@ -195,10 +195,9 @@
             this.label13.ForeColor = System.Drawing.Color.Gold;
             this.label13.Location = new System.Drawing.Point(455, 211);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(230, 25);
+            this.label13.Size = new System.Drawing.Size(231, 25);
             this.label13.TabIndex = 12;
-            this.label13.Text = "Felipe.ti.Sloboda@Gmail.com";
-
+            this.label13.Text = "slobodafelipe0183@gmail.com";
             // 
             // label14
             // 
@@ -266,7 +265,7 @@
             this.label20.AutoSize = true;
             this.label20.Font = new System.Drawing.Font("Monotype Corsiva", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.ForeColor = System.Drawing.Color.Gold;
-            this.label20.Location = new System.Drawing.Point(25, 359);
+            this.label20.Location = new System.Drawing.Point(29, 359);
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(928, 225);
             this.label20.TabIndex = 19;
@@ -318,7 +317,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
             this.Name = "About";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "About";
             this.Load += new System.EventHandler(this.About_Load);
             this.ResumeLayout(false);
