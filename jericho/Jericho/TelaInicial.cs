@@ -253,5 +253,11 @@ namespace Jericho
         {
 
         }
+
+        private void btn_4_Click(object sender, EventArgs e)
+        {
+            telaHelp telaHelp = new telaHelp();
+            telaHelp.ShowDialog();
+        }
     }
 }

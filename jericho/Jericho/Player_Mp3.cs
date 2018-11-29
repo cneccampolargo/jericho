@@ -39,10 +39,6 @@ namespace Jericho
 
         private void Player_Mp3_Load(object sender, EventArgs e)
         {
-            this.Height = Screen.PrimaryScreen.Bounds.Height;
-            this.Width = Screen.PrimaryScreen.Bounds.Width;            
-            this.TopMost = true;
-
             Player.URL = url;
             Player.Ctlcontrols.play();
         }

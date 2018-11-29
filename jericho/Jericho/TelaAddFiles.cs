@@ -40,11 +40,7 @@ namespace Jericho
 
         private void TelaAddFiles_DragDrop(object sender, DragEventArgs e)
         {
-           
-                    
-
-
-            if (Directory.Exists(@"C:\Jericho\Arquivos\"))
+          if (Directory.Exists(@"C:\Jericho\Arquivos\"))
             {
                 string[] files = (string[])e.Data.GetData(DataFormats.FileDrop);
                 foreach (string file in files)

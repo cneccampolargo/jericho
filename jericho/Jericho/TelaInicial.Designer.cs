@@ -96,8 +96,9 @@
             this.btn_1.Location = new System.Drawing.Point(43, 349);
             this.btn_1.Name = "btn_1";
             this.btn_1.Size = new System.Drawing.Size(243, 35);
-            this.btn_1.TabIndex = 17;
-            this.btn_1.Text = "1 - MP3";
+            this.btn_1.TabIndex = 2;
+            this.btn_1.Text = "&1 - MP3";
+            this.btn_1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_1.UseVisualStyleBackColor = false;
             this.btn_1.Click += new System.EventHandler(this.btn_1_Click);
             this.btn_1.Enter += new System.EventHandler(this.btn_1_Enter);
@@ -111,8 +112,9 @@
             this.btn_2.Location = new System.Drawing.Point(43, 409);
             this.btn_2.Name = "btn_2";
             this.btn_2.Size = new System.Drawing.Size(243, 32);
-            this.btn_2.TabIndex = 18;
-            this.btn_2.Text = "2 - AUDIO BOOK";
+            this.btn_2.TabIndex = 3;
+            this.btn_2.Text = "&2 - AUDIO BOOK";
+            this.btn_2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_2.UseVisualStyleBackColor = false;
             this.btn_2.Click += new System.EventHandler(this.btn_2_Click);
             this.btn_2.Enter += new System.EventHandler(this.btn_2_Enter);
@@ -125,8 +127,9 @@
             this.btn_3.Location = new System.Drawing.Point(43, 465);
             this.btn_3.Name = "btn_3";
             this.btn_3.Size = new System.Drawing.Size(244, 37);
-            this.btn_3.TabIndex = 19;
-            this.btn_3.Text = "3 - RADIO ONLINE";
+            this.btn_3.TabIndex = 4;
+            this.btn_3.Text = "&3 - RADIO ONLINE";
+            this.btn_3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_3.UseVisualStyleBackColor = true;
             this.btn_3.Click += new System.EventHandler(this.btn_3_Click);
             this.btn_3.Enter += new System.EventHandler(this.btn_3_Enter);
@@ -139,9 +142,11 @@
             this.btn_4.Location = new System.Drawing.Point(42, 524);
             this.btn_4.Name = "btn_4";
             this.btn_4.Size = new System.Drawing.Size(244, 33);
-            this.btn_4.TabIndex = 20;
-            this.btn_4.Text = "4 - AJUDA";
+            this.btn_4.TabIndex = 5;
+            this.btn_4.Text = "&4 - AJUDA";
+            this.btn_4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_4.UseVisualStyleBackColor = true;
+            this.btn_4.Click += new System.EventHandler(this.btn_4_Click);
             this.btn_4.Enter += new System.EventHandler(this.btn_4_Enter);
             this.btn_4.Leave += new System.EventHandler(this.btn_4_Leave);
             // 
@@ -206,11 +211,13 @@
             this.btn_5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn_5.Location = new System.Drawing.Point(416, 349);
+            this.btn_5.ImageAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.btn_5.Location = new System.Drawing.Point(412, 465);
             this.btn_5.Name = "btn_5";
             this.btn_5.Size = new System.Drawing.Size(244, 35);
-            this.btn_5.TabIndex = 26;
-            this.btn_5.Text = "5 - Sobre";
+            this.btn_5.TabIndex = 8;
+            this.btn_5.Text = "&7 - SOBRE";
+            this.btn_5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_5.UseVisualStyleBackColor = false;
             this.btn_5.Click += new System.EventHandler(this.btn_5_Click);
             this.btn_5.Enter += new System.EventHandler(this.btn_5_Enter);
@@ -220,11 +227,12 @@
             // 
             this.btn_6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_6.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn_6.Location = new System.Drawing.Point(416, 409);
+            this.btn_6.Location = new System.Drawing.Point(412, 350);
             this.btn_6.Name = "btn_6";
             this.btn_6.Size = new System.Drawing.Size(244, 35);
-            this.btn_6.TabIndex = 27;
-            this.btn_6.Text = "6 - CALCULADORA";
+            this.btn_6.TabIndex = 6;
+            this.btn_6.Text = "&5 - CALCULADORA";
+            this.btn_6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_6.UseVisualStyleBackColor = true;
             this.btn_6.Click += new System.EventHandler(this.btn_6_Click);
             this.btn_6.Enter += new System.EventHandler(this.btn_6_Enter);
@@ -234,12 +242,13 @@
             // 
             this.btn_7.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_7.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn_7.Location = new System.Drawing.Point(415, 463);
+            this.btn_7.Location = new System.Drawing.Point(856, 419);
             this.btn_7.Name = "btn_7";
             this.btn_7.Size = new System.Drawing.Size(245, 37);
             this.btn_7.TabIndex = 28;
             this.btn_7.Text = "7 - EMAIL";
             this.btn_7.UseVisualStyleBackColor = true;
+            this.btn_7.Visible = false;
             this.btn_7.Enter += new System.EventHandler(this.btn_7_Enter);
             this.btn_7.Leave += new System.EventHandler(this.btn_7_Leave);
             // 
@@ -247,12 +256,13 @@
             // 
             this.btn_8.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_8.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btn_8.Location = new System.Drawing.Point(416, 524);
+            this.btn_8.Location = new System.Drawing.Point(857, 480);
             this.btn_8.Name = "btn_8";
             this.btn_8.Size = new System.Drawing.Size(244, 33);
             this.btn_8.TabIndex = 29;
             this.btn_8.Text = "8 - NAVEGADOR";
             this.btn_8.UseVisualStyleBackColor = true;
+            this.btn_8.Visible = false;
             this.btn_8.Click += new System.EventHandler(this.btn_8_Click);
             this.btn_8.Enter += new System.EventHandler(this.btn_8_Enter);
             this.btn_8.Leave += new System.EventHandler(this.btn_8_Leave);
@@ -296,11 +306,12 @@
             this.btn_9.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btn_9.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_9.ForeColor = System.Drawing.SystemColors.Control;
-            this.btn_9.Location = new System.Drawing.Point(775, 349);
+            this.btn_9.Location = new System.Drawing.Point(412, 409);
             this.btn_9.Name = "btn_9";
             this.btn_9.Size = new System.Drawing.Size(255, 35);
-            this.btn_9.TabIndex = 30;
-            this.btn_9.Text = "9 - CONFIGURAÇÃO";
+            this.btn_9.TabIndex = 7;
+            this.btn_9.Text = "&6 - CONFIGURAÇÃO";
+            this.btn_9.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btn_9.UseVisualStyleBackColor = false;
             this.btn_9.Click += new System.EventHandler(this.btn_9_Click);
             // 
